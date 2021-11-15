@@ -48,9 +48,14 @@
     .navigation-phone:hover .navigation-phone-dropdown{display: block;}
 
     .navigation-phone:hover .nav-phone{background-color: lightgoldenrodyellow;}
+
+    .navigation-comp{
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 960px) {
+    
 
 }
 @media only screen and (min-width: 960px)  { 
