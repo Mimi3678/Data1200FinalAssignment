@@ -51,6 +51,45 @@
 
 /* Reflection page */
 
+/* Reflection mobile*/
+@media only screen and (max-width: 600px) { 
+
+}
+
+
+/* Reflection laptop*/
+@media only screen and (min-width: 600px) and (max-width: 960px) {
+}
+@media only screen and (min-width: 960px)  { 
+}
+
+#reflection{
+    margin-left: 1em;
+    margin-right: 1em;
+    background-color:rgba(193, 194, 184, 0.411);
+    
+}
+
+#java{
+    text-align: left;
+}
+#javaLearn{
+    vertical-align: middle;
+}
+
+
+#html{
+    text-align: right;
+}
+#htmlLearn{
+    vertical-align: middle;
+    
+}
+
+
+
+
+
 
  /* Tropical page */
 
