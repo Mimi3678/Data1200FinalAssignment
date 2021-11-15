@@ -1,15 +1,32 @@
 
 @media only screen and (max-width: 600px) { 
+
+    header{
+        position: relative;
+        text-align: center;
+        color: white;
+        height: auto;
+    }
+    img.home-phone1{
+        position: relative;
+        margin-left: -50vw;
+    }
+    .navigation-phone{
+        position: absolute;
+        left: 2vw;
+        bottom: 3vw;
+    }
+    .header-phone{
+        position: absolute;
+        bottom: 0;
+        left: 15vw;
+    }
     .nav-phone{
         background-color: beige;
         color: black;
         padding: 12px;
         font-size: 16px;
         border: none;
-    }
-    .navigation-phone{
-        position: relative;
-        display: inline-block;
     }
     .navigation-phone-dropdown{
         display: none;
@@ -31,9 +48,52 @@
     .navigation-phone:hover .navigation-phone-dropdown{display: block;}
 
     .navigation-phone:hover .nav-phone{background-color: lightgoldenrodyellow;}
+
+    .navigation-comp{
+        display: none;
+    }
+    img.home1{
+        display: none;
+    }
+    .header1{
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 960px) {
+    header{
+        position: relative;
+        text-align: center;
+        color: white;
+        height: auto;
+    }
+    .navigation-phone{
+        display: none;
+    }
+    img.home-phone1{
+        display: none;
+    }
+    .header-phone{
+        display: none;
+    }
+    img.home1{
+        position: relative;
+        margin-left: -10vw;
+    }
+    .header1{
+        position: absolute;
+        bottom: 0;
+        left: 35vw;
+    }
+    .navigation-comp{
+        width: 95vw;
+        background-color: beige;
+    }
+    .navigation-comp a{
+        color: black;
+        padding-right: 5vw;
+        text-align: center;
+    }
 
 }
 @media only screen and (min-width: 960px)  { 
@@ -54,9 +114,8 @@
 /* Reflection mobile*/
 @media only screen and (max-width: 600px) { 
 
-
-
 }
+
 
 /* Reflection laptop*/
 @media only screen and (min-width: 600px) and (max-width: 960px) {
@@ -68,56 +127,23 @@
     margin-left: 1em;
     margin-right: 1em;
     background-color:rgba(193, 194, 184, 0.411);
-    padding: 1em;
-    font-size: larger;
+    
 }
-#reflection > h1{
-    letter-spacing: 0.3em;
-}
-#general{
-    text-align: justify;
-    font-size: 1em;
-}
-#background{
-    text-align: center;
-    font-size: 1em;
-}
-img{
-    vertical-align: middle;
-    width: 150px;
-}
-.text{
-    border: 2px solid blue;
-    background-color: rgba(227, 228, 194, 0.452);
-    display: inline-block;
-    font-size: 1.2em;
-    padding: 1em;
-}
-
 
 #java{
-    border: 3px solid red;
+    text-align: left;
 }
-
-#java > #imgJavaLearn{   
-    border: 2px solid blue;
-    float: left;
-    padding: 0.5em;
-}
-#textJAVA{
-    border: 2px solid rgba(227, 228, 194, 0.452);
-
-    height: 150px;
+#javaLearn{
+    vertical-align: middle;
 }
 
 
 #html{
-    border: 3px solid red;
+    text-align: right;
 }
-#html > #imgHtmlLearn{
-    border: 2px solid blue;
-    float: left;
-    padding: 0.5em;
+#htmlLearn{
+    vertical-align: middle;
+    
 }
 #textHTML{
     border: 2px solid rgba(227, 228, 194, 0.452);
@@ -142,12 +168,18 @@ img{
     color: #000;
 }
 #fun main{
+    background:blue;
     color: #000;
     font-family: sans-serif;
-    font-style:italic;
 }
 
 #fun ol{
-    /*til senere*/
+    margin:1em;
+    background:magenta;
+    font-size: 14pt;
     color: #000;
+}
+
+#fun li{
+    background:green;
 }
