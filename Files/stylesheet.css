@@ -1,5 +1,6 @@
 
 @media only screen and (max-width: 600px) { 
+    /* Mobile*/
 /* home page */
     header{
         position: relative;
@@ -61,9 +62,21 @@
     .header1{
         display: none;
     }
+
+
+
+
+    
+/* Reflection mobile*/
+
+
+
+
 }
 
 @media only screen and (min-width: 600px) and (max-width: 960px) {
+
+    /* General header*/
     header{
         position: relative;
         text-align: center;
@@ -96,6 +109,36 @@
         color: black;
         padding-right: 5vw;
         text-align: center;
+    }
+
+    /* HomePage */
+    .bilder-home{
+        box-sizing: border-box;
+        display: none;
+    }
+
+    img.bilde1{
+        box-sizing: border-box;
+        vertical-align: middle;
+    }
+
+    .bildegalleri-home{
+        box-sizing: border-box;
+        max-width: 95vw;
+        position: relative;
+        margin: auto;
+    }
+    .bildegal-tekst{
+        box-sizing: border-box;
+        color: darkgray;
+        font-size: 18px;
+        position: absolute;
+        width: 100%;
+        bottom: 2vw;
+        text-align: center;
+    }
+    .active{
+        background-color: darkgrey;
     }
 
 }
@@ -147,7 +190,6 @@
 
 /* Reflection page */
 
-/* Reflection mobile*/
 
 #reflection{        
     margin-left: 1em;
@@ -174,6 +216,11 @@ hr{
 .logo{
     width: 100px;
     float: right;
+    transition: width 2s;
+    transition-timing-function: ease;
+}
+.logo:hover{
+    width: 150px;
 }
 
 #background{
@@ -201,15 +248,9 @@ hr{
     padding: 0.5em;
     width: 150px;
     height: 150px;
-    transition: width 2s, heigth 2s;
-}
-#java > #imgJavaLearn:hover{
-    width: 250px;
-    height: 250px;
 }
 #textJAVA{
     border: 2px solid rgba(227, 228, 194, 0.452);
-
     height: 150px;
 }
 
@@ -229,13 +270,7 @@ hr{
     padding: 0.5em;
     width: 150px;
     height: 150px;
-    transition: width 2s, heigth 2s;
 }
-#html > #imgHtmlLearn:hover{
-    width: 200px;
-    height: 200px;
-}
-
 #htmlLearn{
     vertical-align: middle;
 }

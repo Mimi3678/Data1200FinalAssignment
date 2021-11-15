@@ -38,5 +38,46 @@
 
 </header>
     
+    <div class="bildegalleri-home">
+
+        <div class="bilder-home">
+            <img class="bilde1" src="images/person.png" alt="Bilde1">
+        <div class="bildegal-tekst">Her er litt informasjon om bildet</div>
+        </div>
+
+        <div class="bilder-home">
+            <img class="bilde1" src="images/person.png" alt="Bilde2">
+        <div class="bildegal-tekst">Her er litt informasjon om bildet</div>
+        </div>
+
+        <div class="bilder-home">
+            <img class="bilde1" src="images/person.png" alt="Bilde3">
+            <div class="bildegal-tekst">Her er litt informasjon om bildet</div>
+        </div>
+
+    </div>
+
+
+    <script>
+        var bildeIndex = 0;
+        visGalleri()
+
+        function visGalleri(){
+            var i;
+            var bilde = document.getElementsByClassName(bilder-home)
+
+            for(i=0;i<bilde.length;i++){
+                bilde[i].style.display= "none";
+            }
+
+            bildeIndex++;
+
+            if (bildeIndex>bilde.length){bildeIndex=1}
+            
+            bilde[bildeIndex-1].style.display="block";
+        }
+        setTimeout(visGalleri, 5000);
+    </script>
+
 </body>
 </html>
