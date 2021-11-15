@@ -250,12 +250,18 @@ hr{
 
 
  /* Topical page */
+ a:link {
+     text-decoration: none;
+    }
+
  a:hover {
      background-color: lightsalmon;
- }
+     text-decoration: underline;
+    }
+
  a:active {
      background-color: lightpink;
- }
+    }
 
 
 
