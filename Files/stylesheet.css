@@ -69,7 +69,33 @@
     
 /* Reflection mobile*/
 
+    #java{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        align-items: center;
+    }
+    #imgJavaLearn{
+        display: flex;
+        flex-basis: auto;
+        line-height: 1em;
+    }
+    #textJAVA, #textHTML{
+        text-align: center;
+    }
 
+    #html{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        align-items: center;
+        text-align: right;
+    }
+    #imgHtmlLearn{
+        display: flex;
+        flex-basis: auto;
+        line-height: 1em;
+    }
 
 
 }
@@ -113,29 +139,29 @@
 
     /* HomePage */
 
-.bilder {
-    display: none;
-}
-.bildegalleri-home{
-  max-width: 70vw;
-  position: relative;
-  margin-left: 15vw;
-  background-color: red;
-}
-.bildegalleri-tekst{
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: black;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-}
+    .bilder {
+        display: none;
+    }
+    .bildegalleri-home{
+    max-width: 70vw;
+    position: relative;
+    margin-left: 15vw;
+    background-color: red;
+    }
+    .bildegalleri-tekst{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
 
 
-.active {
-  background-color: #717171;
-}
+    .active {
+    background-color: #717171;
+    }
 
 
 }
@@ -238,7 +264,7 @@ hr{
     text-align: right;
 }
 
-#java > #imgJavaLearn{   
+#java > #bilder > #imgJavaLearn{   
     border: 2px solid blue;
     border-radius: 25px;
     float: left;
@@ -260,7 +286,7 @@ hr{
     border: 3px solid red;
     text-align: left;
 }
-#html > #imgHtmlLearn{
+#html > #bilder > #imgHtmlLearn{
     border: 2px solid blue;
     border-radius: 25px;
     float: right;
