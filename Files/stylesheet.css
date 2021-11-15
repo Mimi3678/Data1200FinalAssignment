@@ -1,8 +1,40 @@
 
 @media only screen and (max-width: 600px) { 
+    .nav-phone{
+        background-color: beige;
+        color: black;
+        padding: 12px;
+        font-size: 16px;
+        border: none;
+    }
+    .navigation-phone{
+        position: relative;
+        display: inline-block;
+    }
+    .navigation-phone-dropdown{
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 200px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .navigation-phone-dropdown a{
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .navigation-phone-dropdown a:hover{background-color: #ddd;}
+
+    .navigation-phone:hover .navigation-phone-dropdown{display: block;}
+
+    .navigation-phone:hover .nav-phone{background-color: lightgoldenrodyellow;}
 }
 
 @media only screen and (min-width: 600px) and (max-width: 960px) {
+
 }
 @media only screen and (min-width: 960px)  { 
 }
