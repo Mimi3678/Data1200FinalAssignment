@@ -253,7 +253,14 @@ hr{
 
 
 
- /* Tropical page */
+ /* Topical page */
+ a:hover {
+     background-color: lightsalmon;
+ }
+ a:active {
+     background-color: lightpink;
+ }
+
 
 
 
