@@ -97,6 +97,37 @@
 
 }
 @media only screen and (min-width: 960px)  { 
+        text-align: center;
+        color: white;
+        height: auto;
+    }
+    .navigation-phone{
+        display: none;
+    }
+    img.home-phone1{
+        display: none;
+    }
+    .header-phone{
+        display: none;
+    }
+    img.home1{
+        position: relative;
+        margin-left: -10vw;
+    }
+    .header1{
+        position: absolute;
+        bottom: 0;
+        left: 35vw;
+    }
+    .navigation-comp{
+        width: 95vw;
+        background-color: beige;
+    }
+    .navigation-comp a{
+        color: black;
+        padding-right: 5vw;
+        text-align: center;
+    }
 }
 
 
@@ -160,8 +191,6 @@
 
 
 /* Fun page */
-<<<<<<< HEAD
-=======
 #fun{
     background:ivory;
 }
@@ -185,4 +214,3 @@
 #fun li{
     background:green;
 }
->>>>>>> d5e756555ecc4767b04d7a38ff04ebcba100e708
