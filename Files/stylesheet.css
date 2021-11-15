@@ -69,44 +69,61 @@
     margin-right: 1em;
     background-color:rgba(193, 194, 184, 0.411);
     padding: 1em;
+    font-size: larger;
+}
+#reflection > h1{
+    letter-spacing: 0.3em;
+}
+#general{
+    text-align: justify;
+    font-size: 1em;
+}
+#background{
+    text-align: center;
+    font-size: 1em;
 }
 img{
     vertical-align: middle;
     width: 150px;
 }
-
-
-
-#java > p{
-    display: inline;
-    font-size: 1.1em;
-    border: 2px solid blue;
-}
-#java > #imgJavaLearn{
-    vertical-align: center;
-
-    border: 2px solid crimson;
-}
 .text{
-    border: 2px solid pink;
-    display: inline-block;
-}
-
-
-#html > p{
-    display: inline;
-    font-size: 1.1em;
-
     border: 2px solid blue;
+    background-color: rgba(227, 228, 194, 0.452);
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 1em;
 }
 
+
+#java{
+    border: 3px solid red;
+}
+
+#java > #imgJavaLearn{   
+    border: 2px solid blue;
+    float: left;
+    padding: 0.5em;
+}
+#textJAVA{
+    border: 2px solid rgba(227, 228, 194, 0.452);
+
+    height: 150px;
+}
+
+
+#html{
+    border: 3px solid red;
+}
 #html > #imgHtmlLearn{
-    border: 2px solid crimson;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    border: 2px solid blue;
+    float: left;
+    padding: 0.5em;
 }
+#textHTML{
+    border: 2px solid rgba(227, 228, 194, 0.452);
 
+    height: 150px;
+}
 
 
 
