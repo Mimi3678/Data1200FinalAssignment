@@ -52,10 +52,48 @@
     .navigation-comp{
         display: none;
     }
+    img.home1{
+        display: none;
+    }
+    .header1{
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 960px) {
-    
+    header{
+        position: relative;
+        text-align: center;
+        color: white;
+        height: auto;
+    }
+    .navigation-phone{
+        display: none;
+    }
+    img.home-phone1{
+        display: none;
+    }
+    .header-phone{
+        display: none;
+    }
+    img.home1{
+        position: relative;
+        margin-left: -10vw;
+    }
+    .header1{
+        position: absolute;
+        bottom: 0;
+        left: 35vw;
+    }
+    .navigation-comp{
+        width: 95vw;
+        background-color: beige;
+    }
+    .navigation-comp a{
+        color: black;
+        padding-right: 5vw;
+        text-align: center;
+    }
 
 }
 @media only screen and (min-width: 960px)  { 
