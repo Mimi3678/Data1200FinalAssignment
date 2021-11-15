@@ -1,15 +1,32 @@
 
 @media only screen and (max-width: 600px) { 
+
+    header{
+        position: relative;
+        text-align: center;
+        color: white;
+        height: auto;
+    }
+    img.home-phone1{
+        position: relative;
+        margin-left: -50vw;
+    }
+    .navigation-phone{
+        position: absolute;
+        left: 2vw;
+        bottom: 3vw;
+    }
+    .header-phone{
+        position: absolute;
+        bottom: 0;
+        left: 15vw;
+    }
     .nav-phone{
         background-color: beige;
         color: black;
         padding: 12px;
         font-size: 16px;
         border: none;
-    }
-    .navigation-phone{
-        position: relative;
-        display: inline-block;
     }
     .navigation-phone-dropdown{
         display: none;
@@ -31,9 +48,52 @@
     .navigation-phone:hover .navigation-phone-dropdown{display: block;}
 
     .navigation-phone:hover .nav-phone{background-color: lightgoldenrodyellow;}
+
+    .navigation-comp{
+        display: none;
+    }
+    img.home1{
+        display: none;
+    }
+    .header1{
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 960px) {
+    header{
+        position: relative;
+        text-align: center;
+        color: white;
+        height: auto;
+    }
+    .navigation-phone{
+        display: none;
+    }
+    img.home-phone1{
+        display: none;
+    }
+    .header-phone{
+        display: none;
+    }
+    img.home1{
+        position: relative;
+        margin-left: -10vw;
+    }
+    .header1{
+        position: absolute;
+        bottom: 0;
+        left: 35vw;
+    }
+    .navigation-comp{
+        width: 95vw;
+        background-color: beige;
+    }
+    .navigation-comp a{
+        color: black;
+        padding-right: 5vw;
+        text-align: center;
+    }
 
 }
 @media only screen and (min-width: 960px)  { 
@@ -96,20 +156,3 @@
 
 
 /* Fun page */
-#fun{
-    background:ivory;
-}
-#fun header{
-    /*til senere*/
-    color: #000;
-}
-#fun main{
-    color: #000;
-    font-family: sans-serif;
-    font-style:italic;
-}
-
-#fun ol{
-    /*til senere*/
-    color: #000;
-}
