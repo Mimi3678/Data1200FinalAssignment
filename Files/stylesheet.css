@@ -215,6 +215,7 @@
 
 
 #reflection{        
+    width: 90%;
     margin-left: 1em;
     margin-right: 1em;
     background-color:rgba(193, 194, 184, 0.411);
@@ -260,12 +261,12 @@ hr{
 
 /* JAVA */ 
 #java{
-    border: 3px solid red;
+    border: 3px solid rgba(227, 228, 194, 0.452);
     text-align: right;
 }
 
 #java > #bilder > #imgJavaLearn{   
-    border: 2px solid blue;
+    border: 2px solid rgba(227, 228, 194, 0.452);
     border-radius: 25px;
     float: left;
     padding: 0.5em;
@@ -283,11 +284,11 @@ hr{
 
 /* HTMLC & CSS */ 
 #html{
-    border: 3px solid red;
+    border: 3px solid rgba(227, 228, 194, 0.452);
     text-align: left;
 }
 #html > #bilder > #imgHtmlLearn{
-    border: 2px solid blue;
+    border: 2px solid rgba(227, 228, 194, 0.452);
     border-radius: 25px;
     float: right;
     padding: 0.5em;
