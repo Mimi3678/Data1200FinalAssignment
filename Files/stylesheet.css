@@ -72,10 +72,11 @@
 
 
 
-
 }
 
 @media only screen and (min-width: 600px) and (max-width: 960px) {
+
+    /* General header*/
     header{
         position: relative;
         text-align: center;
@@ -108,6 +109,36 @@
         color: black;
         padding-right: 5vw;
         text-align: center;
+    }
+
+    /* HomePage */
+    .bilder-home{
+        box-sizing: border-box;
+        display: none;
+    }
+
+    img.bilde1{
+        box-sizing: border-box;
+        vertical-align: middle;
+    }
+
+    .bildegalleri-home{
+        box-sizing: border-box;
+        max-width: 95vw;
+        position: relative;
+        margin: auto;
+    }
+    .bildegal-tekst{
+        box-sizing: border-box;
+        color: darkgray;
+        font-size: 18px;
+        position: absolute;
+        width: 100%;
+        bottom: 2vw;
+        text-align: center;
+    }
+    .active{
+        background-color: darkgrey;
     }
 
 }
