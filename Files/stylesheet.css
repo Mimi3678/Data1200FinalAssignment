@@ -145,7 +145,11 @@
     vertical-align: middle;
     
 }
+#textHTML{
+    border: 2px solid rgba(227, 228, 194, 0.452);
 
+    height: 150px;
+}
 
 
 
@@ -156,3 +160,29 @@
 
 
 /* Fun page */
+<<<<<<< HEAD
+=======
+#fun{
+    background:ivory;
+}
+#fun header{
+    /*til senere*/
+    color: #000;
+}
+#fun main{
+    background:blue;
+    color: #000;
+    font-family: sans-serif;
+}
+
+#fun ol{
+    margin:1em;
+    background:magenta;
+    font-size: 14pt;
+    color: #000;
+}
+
+#fun li{
+    background:green;
+}
+>>>>>>> d5e756555ecc4767b04d7a38ff04ebcba100e708
