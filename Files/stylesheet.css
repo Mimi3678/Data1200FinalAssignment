@@ -71,9 +71,8 @@
 /* Reflection mobile*/
 @media only screen and (max-width: 600px) { 
 
-
-
 }
+
 
 /* Reflection laptop*/
 @media only screen and (min-width: 600px) and (max-width: 960px) {
@@ -85,43 +84,23 @@
     margin-left: 1em;
     margin-right: 1em;
     background-color:rgba(193, 194, 184, 0.411);
-    padding: 1em;
+    
 }
-img{
+
+#java{
+    text-align: left;
+}
+#javaLearn{
     vertical-align: middle;
-    width: 150px;
 }
 
 
-
-#java > p{
-    display: inline;
-    font-size: 1.1em;
-    border: 2px solid blue;
+#html{
+    text-align: right;
 }
-#java > #imgJavaLearn{
-    vertical-align: center;
-
-    border: 2px solid crimson;
-}
-.text{
-    border: 2px solid pink;
-    display: inline-block;
-}
-
-
-#html > p{
-    display: inline;
-    font-size: 1.1em;
-
-    border: 2px solid blue;
-}
-
-#html > #imgHtmlLearn{
-    border: 2px solid crimson;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#htmlLearn{
+    vertical-align: middle;
+    
 }
 
 
@@ -134,20 +113,3 @@ img{
 
 
 /* Fun page */
-#fun{
-    background:ivory;
-}
-#fun header{
-    /*til senere*/
-    color: #000;
-}
-#fun main{
-    color: #000;
-    font-family: sans-serif;
-    font-style:italic;
-}
-
-#fun ol{
-    /*til senere*/
-    color: #000;
-}
