@@ -1,6 +1,6 @@
 
 @media only screen and (max-width: 600px) { 
-
+/* home page */
     header{
         position: relative;
         text-align: center;
@@ -43,11 +43,14 @@
         display: block;
     }
 
-    .navigation-phone-dropdown a:hover{background-color: #ddd;}
+    .navigation-phone-dropdown a:hover{
+        background-color: #ddd;}
 
-    .navigation-phone:hover .navigation-phone-dropdown{display: block;}
+    .navigation-phone:hover .navigation-phone-dropdown{
+        display: block;}
 
-    .navigation-phone:hover .nav-phone{background-color: lightgoldenrodyellow;}
+    .navigation-phone:hover .nav-phone{
+        background-color: lightgoldenrodyellow;}
 
     .navigation-comp{
         display: none;
@@ -133,7 +136,7 @@
 }
 
 
- /* home page */
+ 
 
 
 
@@ -162,21 +165,29 @@
     padding: 1em;
     font-size: larger;
 }
+
+/* Overall reflection page */ 
 #reflection > h1{
     letter-spacing: 0.3em;
-}
+} 
+
+/* General text */ 
 #general{
     text-align: justify;
     font-size: 1em;
 }
-#background{
-    text-align: center;
-    font-size: 1em;
-
+hr{
+    border: 0.1em solid black;
+    border-radius: 5px;
 }
-img{
-    vertical-align: middle;
-    width: 150px;
+.logo{
+    width: 100px;
+    float: right;
+}
+
+#background{
+    text-align: left;
+    font-size: 1em;
 }
 .text{
     border: 2px solid blue;
@@ -186,16 +197,24 @@ img{
     padding: 1em;
 }
 
-
+/* JAVA */ 
 #java{
     border: 3px solid red;
-    text-align: left;
+    text-align: right;
 }
 
 #java > #imgJavaLearn{   
     border: 2px solid blue;
+    border-radius: 25px;
     float: left;
     padding: 0.5em;
+    width: 150px;
+    height: 150px;
+    transition: width 2s, heigth 2s;
+}
+#java > #imgJavaLearn:hover{
+    width: 250px;
+    height: 250px;
 }
 #textJAVA{
     border: 2px solid rgba(227, 228, 194, 0.452);
@@ -207,20 +226,27 @@ img{
     vertical-align: middle;
 }
 
-
+/* HTMLC & CSS */ 
 #html{
     border: 3px solid red;
-    text-align: right;
+    text-align: left;
 }
 #html > #imgHtmlLearn{
     border: 2px solid blue;
-    float: left;
+    border-radius: 25px;
+    float: right;
     padding: 0.5em;
+    width: 150px;
+    height: 150px;
+    transition: width 2s, heigth 2s;
+}
+#html > #imgHtmlLearn:hover{
+    width: 200px;
+    height: 200px;
 }
 
 #htmlLearn{
     vertical-align: middle;
-    
 }
 #textHTML{
     border: 2px solid rgba(227, 228, 194, 0.452);
