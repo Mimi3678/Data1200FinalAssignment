@@ -96,3 +96,20 @@
 
 
 /* Fun page */
+#fun{
+    background:ivory;
+}
+#fun header{
+    /*til senere*/
+    color: #000;
+}
+#fun main{
+    color: #000;
+    font-family: sans-serif;
+    font-style:italic;
+}
+
+#fun ol{
+    /*til senere*/
+    color: #000;
+}
