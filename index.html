@@ -38,46 +38,50 @@
 
 </header>
     
-    <div class="bildegalleri-home">
+<div class="bildegalleri-home">
 
-        <div class="bilder-home">
-            <img class="bilde1" src="images/person.png" alt="Bilde1">
-        <div class="bildegal-tekst">Her er litt informasjon om bildet</div>
-        </div>
-
-        <div class="bilder-home">
-            <img class="bilde1" src="images/person.png" alt="Bilde2">
-        <div class="bildegal-tekst">Her er litt informasjon om bildet</div>
-        </div>
-
-        <div class="bilder-home">
-            <img class="bilde1" src="images/person.png" alt="Bilde3">
-            <div class="bildegal-tekst">Her er litt informasjon om bildet</div>
-        </div>
-
+    <div class="bilder">
+      <img src="images/person.png">
+      <div class="bildegalleri-tekst">
+          Her er litt informajson om bilde 1
+      </div>
     </div>
-
-
-    <script>
-        var bildeIndex = 0;
-        visGalleri()
-
-        function visGalleri(){
-            var i;
-            var bilde = document.getElementsByClassName(bilder-home)
-
-            for(i=0;i<bilde.length;i++){
-                bilde[i].style.display= "none";
-            }
-
-            bildeIndex++;
-
-            if (bildeIndex>bilde.length){bildeIndex=1}
-            
-            bilde[bildeIndex-1].style.display="block";
-        }
-        setTimeout(visGalleri, 5000);
-    </script>
+    
+    <div class="bilder">
+      <img src="images/8 ting vi ønsket.jpg">
+      <div class="bildegalleri-tekst">
+          Her er litt informasjon om bilde 2
+        </div>
+    </div>
+    
+    <div class="bilder">
+      <img src="images/person.png">
+      <div class="bildegalleri-tekst">
+          Her er litt informasjon om bilde 3
+        </div>
+    </div>
+    
+</div>
+    
+<script>
+    var antallBilder = 0;
+    bildeGalleri();
+    
+    function bildeGalleri() {
+      var i;
+      var bilder = document.getElementsByClassName("bilder");
+      for (i = 0; i < bilder.length; i++) {
+        bilder[i].style.display = "none";  
+      }
+      antallBilder++;
+      if (antallBilder > bilder.length) {
+          antallBilder = 1
+        }    
+      bilder[antallBilder-1].style.display = "block";  
+      setTimeout(bildeGalleri, 8000); // Change image every 2 seconds
+    }
+</script>
+    
 
 </body>
 </html>
