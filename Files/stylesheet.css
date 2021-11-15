@@ -156,29 +156,3 @@
 
 
 /* Fun page */
-<<<<<<< Updated upstream
-=======
-#fun{
-    background:ivory;
-}
-#fun header{
-    /*til senere*/
-    color: #000;
-}
-#fun main{
-    background:blue;
-    color: #000;
-    font-family: sans-serif;
-}
-
-#fun ol{
-    margin:1em;
-    background:magenta;
-    font-size: 14pt;
-    color: #000;
-}
-
-#fun li{
-    background:green;
-}
->>>>>>> Stashed changes
