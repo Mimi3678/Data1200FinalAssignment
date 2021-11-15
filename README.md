@@ -1,6 +1,6 @@
 # Data1200FinalAssignment
 
-Gruppe eksamen i data1200
+Gruppeeksamen i data1200
 
 <!--Kilder-->
 
