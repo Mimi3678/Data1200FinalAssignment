@@ -273,8 +273,8 @@
 #accessibility{
     width: 90%;
     margin: 2em;
-    background-color:rgba(193, 194, 184, 0.411);
-    padding: 1em;
+    background-color:  white;
+    
     font-size: larger;
     font-family: sans-serif, Verdana, Geneva, Tahoma;
 }
@@ -285,6 +285,27 @@
     border: 2px solid black;
     border-radius: 25px;
     margin: 1em;
+    height: 200px;
+    width: 200px;
+}
+
+
+#accessibility > div{
+    padding: 1em;
+}
+
+
+#accessibilityIntro{
+    background-color: #FFDC00;
+}
+#textAccessibility{
+    background-color: #007ACC;
+}
+#textValidated{
+    background-color: #40E4FF;
+}
+#accessibility > div:last-of-type{
+    background-color: #FFDC00;
 }
 
 
@@ -294,10 +315,13 @@
 #reflection{        
     width: 90%;
     margin: 2em;
-    background-color:rgb(241, 241, 197);
+    background-color: white;
     padding: 1em;
     font-size: larger;
     font-family: sans-serif, Verdana, Geneva, Tahoma;
+}
+#reflection > div{
+    padding: 1em;
 }
 
 /* Overall reflection page */ 
@@ -307,6 +331,7 @@
 
 /* General text */ 
 #general{
+    background-color: #ffe852;
     text-align: justify;
     font-size: 1em;
 }
@@ -325,25 +350,37 @@ hr{
 }
 
 #background{
+    background-color: #ffe852;
     text-align: left;
     font-size: 1em;
 }
 /* JAVA */ 
 #java{
-    border: 3px solid rgb(241, 241, 197);
+    border: 3px solid white;
+    background-color: #ffe437;
     text-align: right;
 }
 
 #java > #bilder > #imgJavaLearn{   
-    border: 2px solid rgb(241, 241, 197);
+    border: 2px solid #ffe437;
     border-radius: 25px;
     float: left;
     padding: 0.5em;
     width: 250px;
     height: 250px;
+    transition: 2s; 
+    transition-timing-function: ease;
 }
+
+#java > #bilder > #imgJavaLearn:hover{
+    width: 300px;
+    height: 300px;
+}
+
+
+
 #textJAVA{
-    border: 2px solid rgb(241, 241, 197);
+    border: 2px solid #ffe437;
     height: 250px;
     text-align: right;
     font-size: 1.3em;
@@ -355,26 +392,29 @@ hr{
 
 /* HTMLC & CSS */ 
 #html{
-    border: 3px solid rgb(241, 241, 197);
+    background-color: #ffe437;
+    border: 3px solid #ffe437;
     text-align: left;
 }
 #html > #bilder > #imgHtmlLearn{
-    border: 2px solid rgb(241, 241, 197);
+    border: 2px solid #ffe437;
     border-radius: 25px;
     float: right;
     padding: 0.5em;
     width: 250px;
     height: 250px;
 }
+
 #htmlLearn{
     vertical-align: middle;
 }
 #textHTML{
-    border: 2px solid rgb(241, 241, 197);
+    border: 2px solid #ffe437;
     height: 250px; 
     text-align: left;
     font-size: 1.3em;
 }
+
 
 
 
