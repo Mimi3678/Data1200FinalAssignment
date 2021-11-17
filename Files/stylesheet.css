@@ -69,7 +69,33 @@
     
 /* Reflection mobile*/
 
+#java{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    align-items: center;
+}
+#imgJavaLearn, #textJAVA{
+    display: flex;
+    flex-basis: auto;
+    line-height: 2rem;
+    text-align: justify;
 
+}
+#html{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    align-items: center;
+}
+#imgHtmlLearn, #textHTML{
+    display: flex;
+    flex-basis: auto;
+    line-height: 2rem;
+    text-align: left;
+    text-align: justify;
+
+}
 
 
 
@@ -197,7 +223,7 @@ hr{
     font-size: 1em;
 }
 .text{
-    border: 2px solid blue;
+    border: 2px solid rgba(193, 194, 184, 0.411);
     background-color: rgba(227, 228, 194, 0.452);
     display: inline-block;
     font-size: 1.2em;
@@ -206,12 +232,12 @@ hr{
 
 /* JAVA */ 
 #java{
-    border: 3px solid red;
+    border: 3px solid rgba(193, 194, 184, 0.411);
     text-align: right;
 }
 
-#java > #imgJavaLearn{   
-    border: 2px solid blue;
+#java > #bilder > #imgJavaLearn{   
+    border: 2px solid rgba(193, 194, 184, 0.411);
     border-radius: 25px;
     float: left;
     padding: 0.5em;
@@ -229,11 +255,11 @@ hr{
 
 /* HTMLC & CSS */ 
 #html{
-    border: 3px solid red;
+    border: 3px solid rgba(193, 194, 184, 0.411);
     text-align: left;
 }
-#html > #imgHtmlLearn{
-    border: 2px solid blue;
+#html >  #bilder >#imgHtmlLearn{
+    border: 2px solid rgba(193, 194, 184, 0.411);
     border-radius: 25px;
     float: right;
     padding: 0.5em;
