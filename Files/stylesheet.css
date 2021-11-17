@@ -393,11 +393,21 @@
 
 
 /* Accessibility page */
+#reflection{        
+    width: 90%;
+    margin: 2em;
+    background-color: white;
+    padding: 1em;
+    font-size: larger;
+    font-family: sans-serif, Verdana, Geneva, Tahoma;
+}
+
 #accessibility{
     width: 90%;
     margin: 2em;
     background-color:  white;
-    
+    padding: 1em;
+
     font-size: larger;
     font-family: sans-serif, Verdana, Geneva, Tahoma;
 }
@@ -408,22 +418,46 @@
     border: 2px solid black;
     border-radius: 25px;
     margin: 1em;
-    height: 200px;
-    width: 200px;
+    height: 10em;
+    width: 10em;
 }
-
 
 #accessibility > div{
     padding: 1em;
 }
-
-
 #accessibilityIntro{
     background-color: #FFDC00;
+    height: 5em;
 }
 #textAccessibility{
-    background-color: #007ACC;
+    background-color: #288dcf;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #textValidated{
     background-color: #40E4FF;
 }
@@ -512,6 +546,7 @@ hr{
 }
 
 /* HTMLC & CSS */ 
+
 #html{
     background-color: #ffe437;
     text-align: left;
