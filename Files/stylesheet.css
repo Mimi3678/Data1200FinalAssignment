@@ -151,7 +151,7 @@
     }
     .header1{
         position: absolute;
-        bottom: 0;
+        bottom: 1vw;
         left: 35vw;
     }
     .navigation-comp{
