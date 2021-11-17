@@ -114,8 +114,9 @@
     
 /* Reflection mobile 600px*/
     #reflection{
-        width: 90%;
-        margin: 1em;
+        width: 70%;
+        
+        
         background-color: white;
         font-size: larger;
         font-family: sans-serif, Verdana, Geneva, Tahoma; 
@@ -186,7 +187,7 @@
     }
     .navigation-comp a{
         color: black;
-        padding: 0vw 3vw 0vw 3vw;
+        padding: 2vw;
         text-align: center;
         font-size: x-large;
     }
