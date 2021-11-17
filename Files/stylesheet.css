@@ -20,7 +20,7 @@
     .header-phone{
         position: absolute;
         bottom: -1vw;
-        left: 15vw;
+        margin-left: 20vw;
     }
     .nav-phone{
         background-color: beige;
