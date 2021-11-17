@@ -433,6 +433,39 @@ hr{
  a:active {
      background-color: lightpink;
     }
+ 
+h1{
+    font-size: 4em;
+    font-family:  Verdana, sans-serif, Geneva, Tahoma;
+    text-align: center;
+    margin-top: 70px;
+   
+}
+
+ .paragh-intro {
+     text-align: center;
+     font-size: 2em;
+     
+ }
+.paragh-intro-card {
+     box-shadow: 0 3px 8px 0 lightblue;
+     width: 80%;
+     margin:110px;
+     text-align: right;
+     padding: 5em;
+}
+/* prøv å ha noe kult effekt her */
+.paragh-intro-card:hover {
+    box-shadow: 0 4px 16px 0;
+}
+
+
+
+ /* Bilder til topical page */   
+.technology-soceity {
+    height: 500px;
+    float: right;
+}
 
 
 
