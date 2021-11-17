@@ -38,5 +38,51 @@
 
 </header>
     
+<div class="bildegalleri-home">
+
+    <div class="bilder">
+      <img src="images/person.png">
+      <div class="bildegalleri-tekst">
+          Her er litt informajson om bilde 1
+      </div>
+    </div>
+    
+    <div class="bilder">
+      <img src="images/8 ting vi ønsket.jpg">
+      <div class="bildegalleri-tekst">
+          Her er litt informasjon om bilde 2
+        </div>
+    </div>
+    
+    <div class="bilder">
+      <img src="images/person.png">
+      <div class="bildegalleri-tekst">
+          Her er litt informasjon om bilde 3
+        </div>
+    </div>
+    
+</div>
+    
+<script>
+    var antallBilder = 0;
+    bildeGalleri();
+    
+    function bildeGalleri() {
+      var i;
+      var bilder = document.getElementsByClassName("bilder");
+      for (i = 0; i < bilder.length; i++) {
+        bilder[i].style.display = "none";  
+      }
+      antallBilder++;
+      if (antallBilder > bilder.length) {
+          antallBilder = 1
+        }    
+      bilder[antallBilder-1].style.display = "block";  
+      setTimeout(bildeGalleri, 5000); 
+    }
+    /* JavaScript code curtesy of https://www.w3schools.com/howto/howto_js_slideshow.asp */
+</script>
+    
+
 </body>
 </html>
