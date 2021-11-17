@@ -587,10 +587,11 @@ hr{
  .paragh-intro {
      text-align: center;
      font-size: 2em;
+     letter-spacing: 1px;
      
  }
 .paragh-intro-card {
-     box-shadow: 0 3px 8px 0;
+     box-shadow: 0 3px 8px 0 blue;
      width: 80%;
      margin:110px;
      text-align: right;
@@ -601,18 +602,19 @@ hr{
     box-shadow: 0 4px 16px 0;
 }
 
-.section-task1{
-    box-shadow: 0 3px 8px 0;
-    width: 80%;
-    margin: 110px;
-    text-align: right;
+.task1-description{
+    float: left;
+    font-size: 25px;
+    justify-content:space-around;
+    
 }
 
  /* Bilder til topical page */   
 .technology-soceity {
+    box-shadow: 0 4px 8px 0;
     height: 500px;
-    float: left;
-    margin-top: -60px;
+    float: right;
+    margin-top: -300px;
 }
 
 
