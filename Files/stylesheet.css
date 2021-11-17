@@ -439,25 +439,34 @@ hr{
 
 /* Fun page */
 #fun{
-    background:ivory;
+    background: #c3daff;
 }
-#fun header{
-    /*til senere*/
-    color: #000;
-}
+
 #fun main{
-    background:blue;
+    padding: 1em;
+    margin: 7%;
+    border-radius: 40px;
+    border-style: solid;
+    background:#7f8ea7;
     color: #000;
-    font-family: sans-serif;
+    font-family:Impact;
 }
 
 #fun ol{
-    margin:1em;
-    background:magenta;
+    padding: 1em;
+    background: #c3daff;
+    border-radius: 30px;
+    border-style:solid;
     font-size: 14pt;
     color: #000;
 }
 
 #fun li{
-    background:green;
+    background:#dbb169;
+    margin: 1em;
+    padding:0.5em;
+    border-radius: 20px;
+    border-style: solid;
+    box-shadow: 0 0 10px 3px black;
+    
 }
