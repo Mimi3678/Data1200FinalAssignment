@@ -19,7 +19,7 @@
     }
     .header-phone{
         position: absolute;
-        bottom: 0;
+        bottom: -1vw;
         left: 15vw;
     }
     .nav-phone{
@@ -91,6 +91,24 @@
     background-color: #717171;
     }
 
+    h1.home{
+        text-align: center;
+        letter-spacing: 0.3rem;
+        font-family: sans-serif, Verdana, Geneva, Tahoma;
+    }
+    p.home{
+        text-align: center;
+        width: 80vw;
+        margin-left: 10vw;
+        font-size: larger;
+        font-family: sans-serif, Verdana, Geneva, Tahoma;
+    }
+    li.home{
+        width: 60vw;
+        margin-left: 25vw;
+        font-size: larger;
+        font-family: sans-serif, Verdana, Geneva, Tahoma;
+    }
 
 
     
@@ -160,7 +178,7 @@
     }
     .header1{
         position: absolute;
-        bottom: 1vw;
+        bottom: 2vw;
         left: 35vw;
     }
     .navigation-comp{
@@ -168,9 +186,9 @@
     }
     .navigation-comp a{
         color: black;
-        padding: 0 3vw 0 3vw;
+        padding: 0vw 3vw 0vw 3vw;
         text-align: center;
-        font-size: larger;
+        font-size: x-large;
     }
 
     /* HomePage */
@@ -199,6 +217,24 @@
     }
     .active {
     background-color: #717171;
+    }
+    h1.home{
+        text-align: center;
+        letter-spacing: 0.3rem;
+        font-family: sans-serif, Verdana, Geneva, Tahoma;
+    }
+    p.home{
+        text-align: center;
+        width: 70vw;
+        margin-left: 15vw;
+        font-size: larger;
+        font-family: sans-serif, Verdana, Geneva, Tahoma;
+    }
+    li.home{
+        width: 50vw;
+        margin-left: 30vw;
+        font-size: larger;
+        font-family: sans-serif, Verdana, Geneva, Tahoma;
     }
 
 
@@ -287,7 +323,7 @@
     }
     .header1{
         position: absolute;
-        bottom: 1vw;
+        bottom: 2vw;
         left: 35vw;
     }
     .navigation-comp{
@@ -298,7 +334,6 @@
         color: black;
         text-align: center;
         padding: 0 5vw 0 5vw;
-        text-align: center;
         font-size: x-large;
     }
     
@@ -329,6 +364,25 @@
     .active {
     background-color: #717171;
     }
+
+    h1.home{
+        text-align: center;
+        letter-spacing: 0.3rem;
+        font-family: sans-serif, Verdana, Geneva, Tahoma;
+    }
+    p.home{
+        text-align: center;
+        width: 50vw;
+        margin-left: 25vw;
+        font-size: larger;
+        font-family: sans-serif, Verdana, Geneva, Tahoma;
+    }
+    li.home{
+        width: 40vw;
+        margin-left: 35vw;
+        font-size: larger;
+        font-family: sans-serif, Verdana, Geneva, Tahoma;
+    }
 }
 
 
@@ -339,11 +393,21 @@
 
 
 /* Accessibility page */
+#reflection{        
+    width: 90%;
+    margin: 2em;
+    background-color: white;
+    padding: 1em;
+    font-size: larger;
+    font-family: sans-serif, Verdana, Geneva, Tahoma;
+}
+
 #accessibility{
     width: 90%;
     margin: 2em;
     background-color:  white;
-    
+    padding: 1em;
+
     font-size: larger;
     font-family: sans-serif, Verdana, Geneva, Tahoma;
 }
@@ -354,22 +418,46 @@
     border: 2px solid black;
     border-radius: 25px;
     margin: 1em;
-    height: 200px;
-    width: 200px;
+    height: 10em;
+    width: 10em;
 }
-
 
 #accessibility > div{
     padding: 1em;
 }
-
-
 #accessibilityIntro{
     background-color: #FFDC00;
+    height: 5em;
 }
 #textAccessibility{
-    background-color: #007ACC;
+    background-color: #288dcf;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #textValidated{
     background-color: #40E4FF;
 }
@@ -458,6 +546,7 @@ hr{
 }
 
 /* HTMLC & CSS */ 
+
 #html{
     background-color: #ffe437;
     text-align: left;
@@ -486,12 +575,6 @@ hr{
 
 
 
-
-
-
-
-
-
  /* Topical page */
  a:link {
      text-decoration: none;
@@ -506,13 +589,24 @@ hr{
      background-color: lightpink;
     }
  
-h1{
+.h1-topical{
     font-size: 4em;
-    font-family:  Verdana, sans-serif, Geneva, Tahoma;
+    font-family: Verdana, sans-serif, Geneva, Tahoma;
     text-align: center;
-    margin-top: 70px;
-   
+    margin-top: 70px; 
 }
+
+h2 {
+    font-size: 3em;
+    font-family: Verdana, sans-serif, Geneva, Tahoma;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
 
  .paragh-intro {
      text-align: center;
@@ -520,7 +614,7 @@ h1{
      
  }
 .paragh-intro-card {
-     box-shadow: 0 3px 8px 0 lightblue;
+     box-shadow: 0 3px 8px 0;
      width: 80%;
      margin:110px;
      text-align: right;
@@ -531,12 +625,18 @@ h1{
     box-shadow: 0 4px 16px 0;
 }
 
-
+.task1-description-card {
+    box-shadow: 0 3px 8px 0;
+    width: 80%;
+    margin: 110px;
+    text-align: right;
+}
 
  /* Bilder til topical page */   
 .technology-soceity {
     height: 500px;
-    float: right;
+    float: left;
+    margin-top: -60px;
 }
 
 
