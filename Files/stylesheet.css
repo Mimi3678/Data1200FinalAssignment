@@ -596,14 +596,14 @@ hr{
     margin-top: 70px; 
 }
 
-h2 {
+.h2-topical {
     font-size: 3em;
     font-family: Verdana, sans-serif, Geneva, Tahoma;
     text-align: center;
     margin-top: 100px;
 }
 
-h3 {
+.h3-topical {
     font-size: 30px;
 }
 
