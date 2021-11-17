@@ -486,12 +486,6 @@ hr{
 
 
 
-
-
-
-
-
-
  /* Topical page */
  a:link {
      text-decoration: none;
@@ -508,11 +502,22 @@ hr{
  
 h1{
     font-size: 4em;
-    font-family:  Verdana, sans-serif, Geneva, Tahoma;
+    font-family: Verdana, sans-serif, Geneva, Tahoma;
     text-align: center;
-    margin-top: 70px;
-   
+    margin-top: 70px; 
 }
+
+h2 {
+    font-size: 3em;
+    font-family: Verdana, sans-serif, Geneva, Tahoma;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
 
  .paragh-intro {
      text-align: center;
@@ -520,7 +525,7 @@ h1{
      
  }
 .paragh-intro-card {
-     box-shadow: 0 3px 8px 0 lightblue;
+     box-shadow: 0 3px 8px 0;
      width: 80%;
      margin:110px;
      text-align: right;
@@ -531,12 +536,15 @@ h1{
     box-shadow: 0 4px 16px 0;
 }
 
-
+.task1-description-card {
+    text-align: right;
+}
 
  /* Bilder til topical page */   
 .technology-soceity {
     height: 500px;
-    float: right;
+    float: left;
+    margin-top: -60px;
 }
 
 
