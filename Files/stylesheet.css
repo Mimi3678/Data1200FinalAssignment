@@ -94,7 +94,14 @@
 
 
     
-/* Reflection mobile*/
+/* Reflection mobile 600px*/
+    #reflection{
+        width: 90%;
+        margin: 1em;
+        background-color: white;
+        font-size: larger;
+        font-family: sans-serif, Verdana, Geneva, Tahoma; 
+    }
 
     #java{
         display: flex;
