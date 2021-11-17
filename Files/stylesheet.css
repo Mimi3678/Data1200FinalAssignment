@@ -434,30 +434,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #textValidated{
     background-color: #40E4FF;
 }
@@ -648,13 +624,14 @@ hr{
 }
 
 #fun main{
-    padding: 1em;
+    padding:1em;
+    font-size: x-small;
     margin: 7%;
     border-radius: 40px;
     border-style: solid;
     background:#7f8ea7;
     color: #000;
-    font-family:Impact;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #fun ol{
@@ -675,3 +652,4 @@ hr{
     box-shadow: 0 0 10px 3px black;
     
 }
+
