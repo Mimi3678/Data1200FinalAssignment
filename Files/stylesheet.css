@@ -114,42 +114,119 @@
     
 /* Reflection mobile 600px*/
     #reflection{
-        width: 70%;
-        
-        
         background-color: white;
+        margin: 1em;
+        padding: 0em;
         font-size: larger;
         font-family: sans-serif, Verdana, Geneva, Tahoma; 
         
     }
+    #reflection > div{
+        padding: 1em;
+    }
+    
+    /* Overall reflection page */ 
+    #reflection > h1{
+        letter-spacing: 0.3em;
+    } 
 
+    /* General text */ 
+    #general{
+        background-color: #ffe852;
+        text-align: left;
+        font-size: 1em;
+    }
+    hr{
+        border: 0.1em solid black;
+        border-radius: 5px;
+    }
+    .logo{
+        width: 100px;
+        float: right;
+        transition: width 2s;
+        transition-timing-function: ease;
+    }
+    .logo:hover{
+        width: 150px;
+    }
+    #background{
+        background-color: #ffe852;
+        text-align: left;
+        font-size: 1em;
+    }
+
+    /* JAVA */ 
     #java{
         display: flex;
         flex-direction: column;
         gap: 1em;
         align-items: center;
+        background-color: #ffe437;
+        text-align: right;
     }
+    #java > #bilder > #imgJavaLearn{   
+        border-radius: 25px;
+        float: center;
+        padding: 0.5em;
+        width: 250px;
+        height: 250px;
+    }
+    #textJAVA{
+        height: 250px;
+        text-align: right;
+        font-size: 1.3em;
+    }
+    #javaLearn{
+        vertical-align: middle;
+    }
+
     #imgJavaLearn{
         display: flex;
         flex-basis: auto;
         line-height: 1em;
         float: none;
     }
+
+
     #textJAVA, #textHTML{
         text-align: left;
     }
 
+/* HTMLC & CSS */ 
+
     #html{
+        background-color: #ffe437;
+        text-align: left;
         display: flex;
         flex-direction: column;
         gap: 1em;
         align-items: center;
+    }
+
+    #html >  #bilder >#imgHtmlLearn{
+        text-align: left;
+    }
+    #html > #bilder > #imgHtmlLearn{
+        border-radius: 25px;
+        float: center;
+        padding: 0.5em;
+        width: 250px;
+        height: 250px;
     }
     #imgHtmlLearn{
         display: flex;
         flex-basis: auto;
         line-height: 1em;
         float: none;
+    }
+    
+    #htmlLearn{
+        vertical-align: middle;
+    }
+    #textHTML{
+        height: 250px; 
+        text-align: left;
+        font-size: 1.3em;
     }
 
 
@@ -217,7 +294,7 @@
         max-height: 45vw;
     }
     .active {
-    background-color: #717171;
+        background-color: #717171;
     }
     h1.home{
         text-align: center;
@@ -240,60 +317,145 @@
 
 
 /* Reflection mobile min 600px max 960px*/
-#reflection{
-    width: 90%;
-    margin: 1em;
-    background-color: white;
-    font-size: larger;
-    font-family: sans-serif, Verdana, Geneva, Tahoma; 
-    
-}
+    #reflection{        
+        background-color: white;
+        margin: 1em;
+        padding: 0em;
+        font-size: larger;
+        font-family: sans-serif, Verdana, Geneva, Tahoma; 
+    }
+    #reflection > div{
+        padding: 1em;
+    }
+    /* Overall reflection page */ 
+    #reflection > h1{
+        letter-spacing: 0.3em;
+    } 
+    /* General text */ 
+    #general{
+        background-color: #ffe852;
+        text-align: left;
+        font-size: 1em;
+    }
+    hr{
+        border: 0.1em solid black;
+        border-radius: 5px;
+    }
+    .logo{
+        width: 100px;
+        float: right;
+        transition: width 2s;
+        transition-timing-function: ease;
+    }
+    .logo:hover{
+        width: 150px;
+    }
+    #background{
+        background-color: #ffe852;
+        text-align: left;
+        font-size: 1em;
+    }
+    /* JAVA */ 
+    #java{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        align-items: center;
+        background-color: #ffe437;
+        padding: 0em;
+    }
+    #java > #bilder > #imgJavaLearn{   
+        border-radius: 25px;
+        float: left;
+        padding: 0.5em;
+        width: 200px;
+        height: 200px;
+        transition: 2s; 
+        transition-timing-function: ease;
+    }
+    #java > #bilder > #imgJavaLearn:hover{
+        width: 220px;
+        height: 220px;
+    }
+    #textJAVA{
+        height: 170px;
+        text-align: left;
+        font-size: 1.3em;
+        padding: 2em;
+    }
+    #javaLearn{
+        vertical-align: middle;
+    }
 
-#java{
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-    align-items: center;
-    padding: 0em;
-}
-#bilder{
-    display: flex;
-    flex-basis: auto;
-    line-height: 1em;
-    height: 250px;
-}
-#textJAVA{
-    padding: 2em;
-    text-align: center;
-}
+    #imgJavaLearn{
+        display: flex;
+        flex-basis: auto;
+        line-height: 1em;
+        float: none;
+    }
+    #bilder{
+        display: flex;
+        flex-basis: auto;
+        line-height: 1em;
+        height: 200px;
+    }
 
-#java > #bilder > #imgJavaLearn{
-    height: 170px;
-    transition: 2s; 
-    transition-timing-function: ease;
-}
+    #java > #bilder > #imgJavaLearn{
+        height: 170px;
+        transition: 2s; 
+        transition-timing-function: ease;
+    }
 
-#java > #bilder > #imgJavaLearn:hover{
-    width: 200px;
-    height: 200x;
-}
+    #java > #bilder > #imgJavaLearn:hover{
+        width: 200px;
+        height: 200x;
+    }
+    #textJAVA, #textHTML{
+        text-align: left;
+    }
 
 
-#textHTML{
-    padding: 1.5em;
-    text-align: left;
-}
+    /* HTMLC & CSS */ 
 
-#html{
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-    align-items: center;
-    padding: 0em;
-}
+    #html{
+        background-color: #ffe437;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        align-items: center;
+        padding: 0em;
+    }
 
+    #html >  #bilder >#imgHtmlLearn{
+        text-align: center;
+        border-radius: 25px;
+        float: center;
+        padding: 0.5em;
+        width: 200px;
+        height: 200px;
+    }
+    #imgHtmlLearn{
+        display: flex;
+        flex-basis: auto;
+        line-height: 1em;
+        float: none;
+    }
 
-
+    #htmlLearn{
+        vertical-align: middle;
+    }
+    #textHTML{
+        text-align: left;
+        padding: 2em;
+        text-align: center;
+    }
+    #textHTML{
+        height: 130px;
+        text-align: left;
+        font-size: 1.3em;
+        padding: 2em;
+    }
 
 
 
@@ -338,6 +500,14 @@
         font-size: x-large;
     }
     
+    footer{
+        border-top: black thick;
+        margin-top: 2vw;
+        text-align: center;
+        font-size: x-large;
+        font-style: italic;
+    }
+
     /* HomePage */
 
     .bilder {
@@ -350,6 +520,7 @@
         margin-left: 25vw;
         margin-right: 25vw;
         text-align: center;
+        margin-bottom: 5vw;
     }
     .bildegalleri-tekst{
         padding: 16px;
@@ -384,66 +555,17 @@
         font-size: larger;
         font-family: sans-serif, Verdana, Geneva, Tahoma;
     }
-}
-
-
- 
 
 
 
 
 
-/* Accessibility page */
-#reflection{        
-    width: 90%;
-    margin: 2em;
-    background-color: white;
-    padding: 1em;
-    font-size: larger;
-    font-family: sans-serif, Verdana, Geneva, Tahoma;
-}
-
-#accessibility{
-    width: 90%;
-    margin: 2em;
-    background-color:  white;
-    padding: 1em;
-
-    font-size: larger;
-    font-family: sans-serif, Verdana, Geneva, Tahoma;
-}
-#accessibility > h1{
-    letter-spacing: 0.3em;
-} 
-#accessibility > div > img{
-    border: 2px solid black;
-    border-radius: 25px;
-    margin: 1em;
-    height: 10em;
-    width: 10em;
-}
-
-#accessibility > div{
-    padding: 1em;
-}
-#accessibilityIntro{
-    background-color: #FFDC00;
-    height: 5em;
-}
-#textAccessibility{
-    background-color: #288dcf;
-}
 
 
-#textValidated{
-    background-color: #40E4FF;
-}
-#accessibility > div:last-of-type{
-    background-color: #FFDC00;
-}
 
 
-/* Reflection page */
+
+    /* Reflection page */
 
 
 #reflection{        
@@ -490,7 +612,6 @@ hr{
 }
 /* JAVA */ 
 #java{
-    
     background-color: #ffe437;
     text-align: right;
 }
@@ -509,9 +630,6 @@ hr{
     width: 300px;
     height: 300px;
 }
-
-
-
 #textJAVA{
     height: 250px;
     text-align: right;
@@ -548,6 +666,58 @@ hr{
     font-size: 1.3em;
 }
 
+
+
+
+}
+
+
+ 
+
+
+
+
+
+/* Accessibility page */
+
+
+#accessibility{
+    width: 90%;
+    margin: 2em;
+    background-color:  white;
+    padding: 1em;
+    font-size: larger;
+    font-family: sans-serif, Verdana, Geneva, Tahoma;
+}
+#accessibility > h1{
+    letter-spacing: 0.3em;
+} 
+#accessibility > div > img{
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 1em;
+    height: 10em;
+    width: 10em;
+}
+
+#accessibility > div{
+    padding: 1em;
+}
+#accessibilityIntro{
+    background-color: #FFDC00;
+    height: 5em;
+}
+#textAccessibility{
+    background-color: #288dcf;
+}
+
+
+#textValidated{
+    background-color: #40E4FF;
+}
+#accessibility > div:last-of-type{
+    background-color: #FFDC00;
+}
 
 
 
@@ -627,7 +797,7 @@ hr{
 
 #fun main{
     padding:1em;
-    font-size: x-small;
+    text-align: center;
     margin: 7%;
     border-radius: 40px;
     border-style: solid;
