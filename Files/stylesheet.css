@@ -114,8 +114,9 @@
     
 /* Reflection mobile 600px*/
     #reflection{
-        width: 90%;
-        margin: 1em;
+        width: 70%;
+        
+        
         background-color: white;
         font-size: larger;
         font-family: sans-serif, Verdana, Geneva, Tahoma; 
