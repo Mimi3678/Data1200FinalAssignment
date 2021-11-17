@@ -565,7 +565,7 @@ hr{
      background-color: lightpink;
     }
  
-h1{
+.h1-topical{
     font-size: 4em;
     font-family: Verdana, sans-serif, Geneva, Tahoma;
     text-align: center;
@@ -602,6 +602,9 @@ h3 {
 }
 
 .task1-description-card {
+    box-shadow: 0 3px 8px 0;
+    width: 80%;
+    margin: 110px;
     text-align: right;
 }
 
@@ -621,13 +624,14 @@ h3 {
 }
 
 #fun main{
-    padding: 1em;
+    padding:1em;
+    font-size: x-small;
     margin: 7%;
     border-radius: 40px;
     border-style: solid;
     background:#7f8ea7;
     color: #000;
-    font-family:Impact;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #fun ol{
@@ -648,3 +652,4 @@ h3 {
     box-shadow: 0 0 10px 3px black;
     
 }
+
