@@ -101,6 +101,7 @@
         background-color: white;
         font-size: larger;
         font-family: sans-serif, Verdana, Geneva, Tahoma; 
+        
     }
 
     #java{
@@ -113,9 +114,10 @@
         display: flex;
         flex-basis: auto;
         line-height: 1em;
+        float: none;
     }
     #textJAVA, #textHTML{
-        text-align: center;
+        text-align: left;
     }
 
     #html{
@@ -123,12 +125,12 @@
         flex-direction: column;
         gap: 1em;
         align-items: center;
-        text-align: right;
     }
     #imgHtmlLearn{
         display: flex;
         flex-basis: auto;
         line-height: 1em;
+        float: none;
     }
 
 
@@ -198,6 +200,66 @@
     .active {
     background-color: #717171;
     }
+
+
+/* Reflection mobile min 600px max 960px*/
+#reflection{
+    width: 90%;
+    margin: 1em;
+    background-color: white;
+    font-size: larger;
+    font-family: sans-serif, Verdana, Geneva, Tahoma; 
+    
+}
+
+#java{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    padding: 0em;
+}
+#bilder{
+    display: flex;
+    flex-basis: auto;
+    line-height: 1em;
+    height: 250px;
+}
+#textJAVA{
+    padding: 2em;
+    text-align: center;
+}
+
+#java > #bilder > #imgJavaLearn{
+    height: 170px;
+    transition: 2s; 
+    transition-timing-function: ease;
+}
+
+#java > #bilder > #imgJavaLearn:hover{
+    width: 200px;
+    height: 200x;
+}
+
+
+#textHTML{
+    padding: 1.5em;
+    text-align: left;
+}
+
+#html{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    padding: 0em;
+}
+
+
+
+
+
+
 
 
 }
@@ -363,13 +425,12 @@ hr{
 }
 /* JAVA */ 
 #java{
-    border: 3px solid white;
+    
     background-color: #ffe437;
     text-align: right;
 }
 
 #java > #bilder > #imgJavaLearn{   
-    border: 2px solid #ffe437;
     border-radius: 25px;
     float: left;
     padding: 0.5em;
@@ -387,7 +448,6 @@ hr{
 
 
 #textJAVA{
-    border: 2px solid #ffe437;
     height: 250px;
     text-align: right;
     font-size: 1.3em;
@@ -421,6 +481,11 @@ hr{
     text-align: left;
     font-size: 1.3em;
 }
+
+
+
+
+
 
 
 
