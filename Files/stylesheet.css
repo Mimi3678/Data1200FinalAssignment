@@ -20,7 +20,7 @@
     .header-phone{
         position: absolute;
         bottom: -1vw;
-        left: 15vw;
+        margin-left: 20vw;
     }
     .nav-phone{
         background-color: beige;
@@ -114,8 +114,9 @@
     
 /* Reflection mobile 600px*/
     #reflection{
-        width: 90%;
-        margin: 1em;
+        width: 70%;
+        
+        
         background-color: white;
         font-size: larger;
         font-family: sans-serif, Verdana, Geneva, Tahoma; 
@@ -186,7 +187,7 @@
     }
     .navigation-comp a{
         color: black;
-        padding: 0vw 3vw 0vw 3vw;
+        padding: 2vw;
         text-align: center;
         font-size: x-large;
     }
@@ -434,30 +435,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #textValidated{
     background-color: #40E4FF;
 }
@@ -596,14 +573,14 @@ hr{
     margin-top: 70px; 
 }
 
-h2 {
+.h2-topical {
     font-size: 3em;
     font-family: Verdana, sans-serif, Geneva, Tahoma;
     text-align: center;
     margin-top: 100px;
 }
 
-h3 {
+.h3-topical {
     font-size: 30px;
 }
 
@@ -611,10 +588,11 @@ h3 {
  .paragh-intro {
      text-align: center;
      font-size: 2em;
+     letter-spacing: 1px;
      
  }
 .paragh-intro-card {
-     box-shadow: 0 3px 8px 0;
+     box-shadow: 0 3px 8px 0 blue;
      width: 80%;
      margin:110px;
      text-align: right;
@@ -625,18 +603,19 @@ h3 {
     box-shadow: 0 4px 16px 0;
 }
 
-.task1-description-card {
-    box-shadow: 0 3px 8px 0;
-    width: 80%;
-    margin: 110px;
-    text-align: right;
+.task1-description{
+    float: left;
+    font-size: 25px;
+    justify-content:space-around;
+    
 }
 
  /* Bilder til topical page */   
 .technology-soceity {
+    box-shadow: 0 4px 8px 0;
     height: 500px;
-    float: left;
-    margin-top: -60px;
+    float: right;
+    margin-top: -300px;
 }
 
 
