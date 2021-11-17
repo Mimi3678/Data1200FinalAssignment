@@ -10,7 +10,7 @@
     }
     img.home-phone1{
         position: relative;
-        margin-left: -50vw;
+        max-width: 100%;
     }
     .navigation-phone{
         position: absolute;
