@@ -19,7 +19,7 @@
     }
     .header-phone{
         position: absolute;
-        bottom: 0;
+        bottom: -1vw;
         left: 15vw;
     }
     .nav-phone{
@@ -91,6 +91,24 @@
     background-color: #717171;
     }
 
+    h1.home{
+        text-align: center;
+        letter-spacing: 0.3rem;
+        font-family: sans-serif, Verdana, Geneva, Tahoma;
+    }
+    p.home{
+        text-align: center;
+        width: 80vw;
+        margin-left: 10vw;
+        font-size: larger;
+        font-family: sans-serif, Verdana, Geneva, Tahoma;
+    }
+    li.home{
+        width: 60vw;
+        margin-left: 25vw;
+        font-size: larger;
+        font-family: sans-serif, Verdana, Geneva, Tahoma;
+    }
 
 
     
@@ -160,7 +178,7 @@
     }
     .header1{
         position: absolute;
-        bottom: 1vw;
+        bottom: 2vw;
         left: 35vw;
     }
     .navigation-comp{
@@ -168,9 +186,9 @@
     }
     .navigation-comp a{
         color: black;
-        padding: 0 3vw 0 3vw;
+        padding: 0vw 3vw 0vw 3vw;
         text-align: center;
-        font-size: larger;
+        font-size: x-large;
     }
 
     /* HomePage */
@@ -199,6 +217,24 @@
     }
     .active {
     background-color: #717171;
+    }
+    h1.home{
+        text-align: center;
+        letter-spacing: 0.3rem;
+        font-family: sans-serif, Verdana, Geneva, Tahoma;
+    }
+    p.home{
+        text-align: center;
+        width: 70vw;
+        margin-left: 15vw;
+        font-size: larger;
+        font-family: sans-serif, Verdana, Geneva, Tahoma;
+    }
+    li.home{
+        width: 50vw;
+        margin-left: 30vw;
+        font-size: larger;
+        font-family: sans-serif, Verdana, Geneva, Tahoma;
     }
 
 
@@ -287,7 +323,7 @@
     }
     .header1{
         position: absolute;
-        bottom: 1vw;
+        bottom: 2vw;
         left: 35vw;
     }
     .navigation-comp{
@@ -298,7 +334,6 @@
         color: black;
         text-align: center;
         padding: 0 5vw 0 5vw;
-        text-align: center;
         font-size: x-large;
     }
     
@@ -328,6 +363,25 @@
     }
     .active {
     background-color: #717171;
+    }
+
+    h1.home{
+        text-align: center;
+        letter-spacing: 0.3rem;
+        font-family: sans-serif, Verdana, Geneva, Tahoma;
+    }
+    p.home{
+        text-align: center;
+        width: 50vw;
+        margin-left: 25vw;
+        font-size: larger;
+        font-family: sans-serif, Verdana, Geneva, Tahoma;
+    }
+    li.home{
+        width: 40vw;
+        margin-left: 35vw;
+        font-size: larger;
+        font-family: sans-serif, Verdana, Geneva, Tahoma;
     }
 }
 
