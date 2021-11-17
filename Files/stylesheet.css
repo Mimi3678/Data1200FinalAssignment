@@ -393,11 +393,12 @@ hr{
 /* HTMLC & CSS */ 
 #html{
     background-color: #ffe437;
-    border: 3px solid #ffe437;
+    text-align: left;
+}
+#html >  #bilder >#imgHtmlLearn{
     text-align: left;
 }
 #html > #bilder > #imgHtmlLearn{
-    border: 2px solid #ffe437;
     border-radius: 25px;
     float: right;
     padding: 0.5em;
@@ -409,7 +410,6 @@ hr{
     vertical-align: middle;
 }
 #textHTML{
-    border: 2px solid #ffe437;
     height: 250px; 
     text-align: left;
     font-size: 1.3em;
