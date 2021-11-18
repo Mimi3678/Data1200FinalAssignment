@@ -812,16 +812,16 @@
 
 
  /* Topical page */
- a:link {
+ .links-topical:link {
      text-decoration: none;
     }
 
- a:hover {
+ .links-topical:hover {
      background-color: lightsalmon;
      text-decoration: underline;
     }
 
- a:active {
+ .links-topical:active {
      background-color: lightpink;
     }
  
@@ -859,13 +859,16 @@
 }
 /* prøv å ha noe kult effekt her */
 .paragh-intro-card:hover {
-    box-shadow: 0 4px 16px 0;
+    box-shadow: 0 4px 14px 0;
+   
+    
 }
 
-.reflection-task1 {
+.reflection-task{
     margin: 5em 0;
-    padding: 9em;
+    padding: 2em;
     box-shadow: 0 0 2rem -0.6rem black;
+
 }
 
 .task-introduction {
