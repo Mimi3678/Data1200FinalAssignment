@@ -806,11 +806,6 @@
 
 
 
-
-
-
-
-
  /* Topical page */
  .links-topical:link {
      text-decoration: none;
@@ -825,24 +820,23 @@
      background-color: lightpink;
     }
  
-.h1-topical{
+ .h1-topical {
     font-size: 4em;
     font-family: Verdana, sans-serif, Geneva, Tahoma;
     text-align: center;
     margin-top: 70px; 
 }
 
-.h2-topical {
+ .h2-topical {
     font-size: 3em;
     font-family: Verdana, sans-serif, Geneva, Tahoma;
     text-align: center;
     margin-top: 100px;
 }
 
-.h3-topical {
+ .h3-topical {
     font-size: 30px;
 }
-
 
  .paragh-intro {
      text-align: center;
@@ -850,7 +844,7 @@
      letter-spacing: 1px;
      
  }
-.paragh-intro-card {
+ .paragh-intro-card {
      box-shadow: 0 3px 8px 0 blue;
      width: 80%;
      margin:110px;
@@ -858,18 +852,29 @@
      padding: 5em;
 }
 /* prøv å ha noe kult effekt her */
-.paragh-intro-card:hover {
+ .paragh-intro-card:hover {
     box-shadow: 0 4px 14px 0;
-   
-    
 }
 
-.reflection-task{
+ .reflection-task-card1{
     margin: 5em 0;
-    padding: 2em;
-    box-shadow: 0 0 2rem -0.6rem black;
+    padding: 4em;
+    box-shadow: 0 4px 8px 0 black;
+    width: 40%;
 
 }
+
+.reflection-task-card2{
+    margin: 5em 0;
+    padding: 4em;
+    box-shadow: 0 4px 8px 0 black;
+    width: 40%;
+    float: right;
+    margin-top: -1300px;
+
+}
+
+
 
 .task-introduction {
     text-align:left;
@@ -892,6 +897,15 @@
 
 
 }
+
+
+
+
+
+
+
+
+
 /* Fun page */
 #fun{
     background: #c3daff;
