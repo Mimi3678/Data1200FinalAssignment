@@ -858,15 +858,16 @@
 
  .reflection-task-card1{
     margin: 5em 0;
-    padding: 4em;
+    padding: 3em;
     box-shadow: 0 4px 8px 0 black;
     width: 40%;
+    border-radius: 6px 6px 0 0;
 
 }
 
 .reflection-task-card2{
     margin: 5em 0;
-    padding: 4em;
+    padding: 3em;
     box-shadow: 0 4px 8px 0 black;
     width: 40%;
     float: right;
