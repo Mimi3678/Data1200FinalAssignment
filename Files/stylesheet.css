@@ -856,6 +856,7 @@
      margin:110px;
      text-align: right;
      padding: 5em;
+     background-color: #faedcd;
 }
 /* prøv å ha noe kult effekt her */
  .paragh-intro-card:hover {
@@ -868,7 +869,6 @@
    box-shadow: 0 4px 8px 0 black;
    width: 800px;
    border-radius: 6px 6px 0 0;
-
 }
 
 .reflection-task-card2 {
