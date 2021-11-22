@@ -857,21 +857,27 @@
 }
 
  .reflection-task-card1{
-    margin: 5em 0;
-    padding: 3em;
-    box-shadow: 0 4px 8px 0 black;
-    width: 40%;
-    border-radius: 6px 6px 0 0;
+   border: 6px solid red;
+   padding: 20px;
+   margin: 10px;
+   box-shadow: 0 4px 8px 0 black;
+   width: 800px;
+   border-radius: 6px 6px 0 0;
+   
+   
 
 }
 
 .reflection-task-card2{
-    margin: 5em 0;
-    padding: 3em;
-    box-shadow: 0 4px 8px 0 black;
-    width: 40%;
-    float: right;
-    margin-top: -1650px;
+   width: 40%;
+   float: right;
+   padding: 20px;
+   border: 6px solid red;
+   margin: 10px;
+   box-shadow: 0 4px 8px 0 black;
+   border-radius: 6px 6px 0 0;
+   float: right;
+
 
 }
 
@@ -953,3 +959,14 @@
     
 }
 
+
+
+
+
+
+
+
+
+
+
+    
