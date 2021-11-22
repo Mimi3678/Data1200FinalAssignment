@@ -819,6 +819,7 @@
  .figcaption:hover {
         background-color: lightsalmon;
         text-decoration: underline;
+        
     }
 
 
@@ -851,7 +852,7 @@
      
  }
  .paragh-intro-card {
-     box-shadow: 0 3px 8px 0 blue;
+     box-shadow: 0 3px 8px 0 black;
      width: 80%;
      margin:110px;
      text-align: right;
