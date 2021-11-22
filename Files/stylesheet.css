@@ -816,6 +816,12 @@
      text-decoration: underline;
     }
 
+ .figcaption:hover {
+        background-color: lightsalmon;
+        text-decoration: underline;
+    }
+
+
  .links-topical:active {
      background-color: lightpink;
     }
@@ -856,18 +862,16 @@
     box-shadow: 0 4px 14px 0;
 }
 
- .reflection-task-card1{
+ .reflection-task-card1 {
    padding: 20px;
    margin: 10px;
    box-shadow: 0 4px 8px 0 black;
    width: 800px;
    border-radius: 6px 6px 0 0;
-   
-   
 
 }
 
-.reflection-task-card2{
+.reflection-task-card2 {
    width: 50%;
    float: right;
    padding: 20px;
@@ -877,8 +881,6 @@
    float: right;
    margin-top: -115rem;
 
-  
-
 }
 
 .task-introduction {
@@ -886,8 +888,7 @@
     font-size: 25px;
 }
 
-
-.task-paragh{
+.task-paragh {
     text-align: left;
     font-size: 25px;
 
@@ -902,6 +903,8 @@
     font-size: 20px;
     font-style: italic;
 }
+
+
  /* Bilder til topical page */   
 .technology-soceity {
    height: auto;
