@@ -857,12 +857,12 @@
 }
 
  .reflection-task-card1{
-   border: 6px solid red;
    padding: 20px;
    margin: 10px;
    box-shadow: 0 4px 8px 0 black;
    width: 800px;
    border-radius: 6px 6px 0 0;
+   
    
 
 }
@@ -871,53 +871,63 @@
    width: 50%;
    float: right;
    padding: 20px;
-   border: 6px solid red;
    margin: 10px;
    box-shadow: 0 4px 8px 0 black;
    border-radius: 6px 6px 0 0;
    float: right;
-   margin-top: -125rem;
+   margin-top: -115rem;
 
-
+  
 
 }
 
 .task-introduction {
     text-align:left;
-    font-size: 2em;
+    font-size: 25px;
 }
 
 
 .task-paragh{
     text-align: left;
     font-size: 25px;
-   
-    
+
+}
+
+.figcaptions{
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
 }
  /* Bilder til topical page */   
 .technology-soceity {
    height: auto;
-   width: 90%;
+   width: 70%;
    display: auto;
    margin: 0px auto;
 
 }
 
 .biden-trump {
-    width: 90%;
+    width: 80%;
     height: auto;
     display: block;
     margin: 0px auto;
 }
 
 .myanmar-coup {
- width: 90%;
+ width: 80%;
  height: auto;
  display: block;
  margin: 0px auto;
 
 }
 
+.smartphones {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 0px auto;
+}
 
 
 
