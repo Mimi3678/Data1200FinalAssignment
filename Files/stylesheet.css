@@ -899,9 +899,19 @@
 }
 
 .biden-trump {
-    size: 5px;
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: 0px auto;
 }
 
+.myanmar-coup {
+ width: 90%;
+ height: auto;
+ display: block;
+ margin: 0px auto;
+
+}
 
 
 
