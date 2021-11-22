@@ -893,6 +893,10 @@
 
 }
 
+.task-conclusion {
+    font-size: 25px;
+}
+
 .figcaptions{
     text-align: center;
     font-size: 20px;
@@ -901,14 +905,14 @@
  /* Bilder til topical page */   
 .technology-soceity {
    height: auto;
-   width: 70%;
+   width: 60%;
    display: auto;
    margin: 0px auto;
 
 }
 
 .biden-trump {
-    width: 80%;
+    width: 90%;
     height: auto;
     display: block;
     margin: 0px auto;
