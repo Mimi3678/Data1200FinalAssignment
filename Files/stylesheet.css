@@ -875,8 +875,6 @@
 
 }
 
-
-
 .task-introduction {
     text-align:left;
     font-size: 2em;
@@ -891,10 +889,10 @@
 }
  /* Bilder til topical page */   
 .technology-soceity {
-   height: 500px;
-   float: right;
-   margin-left: 3rem;
-   margin-top: -90px;
+   height: auto;
+   width: 90%;
+   display: auto;
+   margin: 0px auto;
 
 }
 
