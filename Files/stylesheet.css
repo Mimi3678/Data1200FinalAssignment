@@ -271,25 +271,7 @@
         background-color: #FFDC00;
     }
 
-/* Topical page */
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -666,11 +648,6 @@
 
 
 
-
-
-
-
-
     /* Reflection page */
 
 
@@ -842,10 +819,8 @@
 
  .figcaption:hover {
         background-color: lightsalmon;
-        text-decoration: underline;
-        
+        text-decoration: underline; 
     }
-
 
  .links-topical:active {
      background-color: lightpink;
@@ -904,7 +879,7 @@
    box-shadow: 0 4px 8px 0 black;
    border-radius: 6px 6px 0 0;
    float: right;
-   margin-top: -115rem;
+   margin-top: -100rem;
 
 }
 
@@ -933,14 +908,15 @@
  /* Bilder til topical page */   
 .technology-soceity {
    height: auto;
-   width: 60%;
+   width: 40%;
    display: auto;
    margin: 0px auto;
 
 }
 
 .biden-trump {
-    width: 90%;
+    width: 40%;
+    gap: 10px;
     height: auto;
     display: block;
     margin: 0px auto;
@@ -955,7 +931,7 @@
 }
 
 .smartphones {
-    width: 60%;
+    width: 40%;
     height: auto;
     display: block;
     margin: 0px auto;
