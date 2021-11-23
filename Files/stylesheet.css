@@ -429,6 +429,7 @@ text-align: center;
   width: 75%;
   padding: 30px;
   margin: 4em;
+  justify-content: center;
 }
 
 .reflection-task-card2 {
@@ -437,6 +438,7 @@ text-align: center;
     width: 75%;
     margin: 4em;
     padding: 30px;
+    justify-content: center;
    }
 
    .task-introduction {
