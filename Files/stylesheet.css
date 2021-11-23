@@ -422,13 +422,47 @@ text-align: center;
 }
 
 .reflection-task-card1 {
-  box-shadow: 0 3px 5px 0 black;
+  box-shadow: 0 3px 5px 0 darkgoldenrod;
   border-radius: 6px 6px 0 0;
   width: 75%;
   padding: 30px;
   margin: 2em;
 }
 
+.reflection-task-card2 {
+    box-shadow: 0 3px 5px 0 darkgoldenrod;
+    border-radius: 6px 6px 0 0;
+    width: 75%;
+    margin: 2em;
+    padding: 30px;
+   }
+
+   .task-introduction {
+       text-align: left;
+       font-size: 20px;
+       font-style: italic;
+   }
+
+   .task.task-paragh {
+       text-align: left;
+       font-size: 25px;
+       line-height: 1.5;
+       letter-spacing: 2px;
+       font-family: sans-serif, Verdana, Geneva, Tahoma;
+   }
+
+   .task-paragh::first-letter {
+    font-size: 200%;
+    color: goldenrod;
+    font-style: italic;
+  }
+
+ .figcaptions{
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+ }
+ 
 
 /* Bilder til topical page -     */   
 .technology-soceity {
@@ -448,18 +482,17 @@ text-align: center;
  
   
   .biden-trump {
-     width: 70%;
+     width: 100%;
      height: auto;
      display: block;
      margin: 0px auto;
   }
   
   .myanmar-coup {
-  width: 60%;
+  width: 100%;
   height: auto;
   display: block;
   margin: 0px auto;
-  
   }
   
   
