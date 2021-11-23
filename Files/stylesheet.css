@@ -391,9 +391,29 @@
 
 .h1-topical {
     font-style: italic;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.h2-topical {
+font-size: 2em;
+text-align: center;
 }
 
+.h3-topical {
+    font-size: 30px;
+}
 
+.paragh-intro {
+    font-size: 20px;
+}
+
+.paragh-intro-card {
+    box-shadow: 0 3px 5px 0 black;
+    width: 90%;
+    padding: 2em;
+    float: left;
+    background-color: #faedcd;
+}
 
 
 
