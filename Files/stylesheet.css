@@ -778,7 +778,93 @@
 
 
 
-    /* Accessibility page */
+    /* Accessibility page  GRID*/
+    .item1 { 
+        grid-area: h; 
+        border: 4px solid red;
+        height: 4em;
+        text-align: center;
+    }
+    .item2 { 
+        grid-area: text1; 
+        border: 4px solid red;    
+        align-items: center;
+    }
+    .item3 { 
+        grid-area: bilde1; 
+        border: 4px solid red; 
+    }
+    .item4 { 
+        grid-area: text2; 
+        border: 4px solid red;
+    }
+    .item5 { 
+        grid-area: bilde2; 
+        border: 4px solid red;
+    }
+    .item6 { 
+        grid-area: f; 
+        border: 4px solid red;
+    }
+    
+    .grid-container { 
+        grid-gap: 5px;
+        background-color: #2196F3;
+        padding: 0em;
+        grid-template-rows: auto;
+        border: 2px solid black;
+        display: grid;
+        grid-template-areas: 
+        "h h h h"
+        ". text1 bilde1 ."
+        ". text1 bilde1 ."
+        ". bilde2 text2 ."
+        ". bilde2 text2 ."
+        ". bilde bilde bilde"
+        "f f f f";
+    }
+    #grid-img{
+        height: 15em;
+        width: auto;
+        border-radius: 25px;   
+    }
+    
+    .grid-inline-container{
+        display: inline-grid;
+        
+    }
+    .start {
+        align-items: start;
+     }
+     .end {
+        align-items: end;
+     }
+     .center {
+        align-items: center;
+     }
+     .stretch {
+        align-items: stretch
+     }
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Accessibility page */
 
 
     #accessibility{
