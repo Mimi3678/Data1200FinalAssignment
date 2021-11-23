@@ -427,9 +427,9 @@ text-align: center;
   box-shadow: 0 3px 5px 0 darkgoldenrod;
   border-radius: 6px 6px 0 0;
   width: 75%;
-  padding: 30px;
+  padding: 1em;
   margin: 4em;
-  justify-content: center;
+  
 }
 
 .reflection-task-card2 {
@@ -437,8 +437,8 @@ text-align: center;
     border-radius: 6px 6px 0 0;
     width: 75%;
     margin: 4em;
-    padding: 30px;
-    justify-content: center;
+    padding: 1em;
+    
    }
 
    .task-introduction {
