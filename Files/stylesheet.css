@@ -959,6 +959,7 @@ margin: 0px auto;
 }
 
 #fun main{
+    min-width: 240px;
     padding:1em;
     text-align: center;
     margin: 7%;
