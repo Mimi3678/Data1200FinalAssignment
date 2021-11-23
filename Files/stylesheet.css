@@ -130,7 +130,7 @@
         padding: 0em;
         font-size: larger;
         font-family: sans-serif, Verdana, Geneva, Tahoma; 
-        
+        line-height: 1.5;
     }
     #reflection > div{
         padding: 1em;
@@ -250,6 +250,7 @@
         background-color:  white;
         font-size: larger;
         font-family: sans-serif, Verdana, Geneva, Tahoma;
+        
     }
     #accessibility > h1{
         letter-spacing: 0.3em;
@@ -264,10 +265,11 @@
     #accessibility > div{
         padding: 1em;
         gap: 1em;
+        
     }
     #accessibilityIntro{
         background-color: #ffe852;
-        height: 9em;
+        height: auto;
     }
     #accessibilityIntro a:link{
         text-decoration: none;
@@ -481,6 +483,7 @@
         padding: 0em;
         font-size: larger;
         font-family: sans-serif, Verdana, Geneva, Tahoma; 
+        line-height: 1.5;
     }
     #reflection > div{
         padding: 1em;
@@ -685,9 +688,10 @@
     grid-area: h; 
     border: 4px solid #ffe852; 
     background-color: #ffe852;    
-    height: 5em;
+    height: 7em;
     text-align: center;
     padding: 1em;
+    line-height: 1.5;
 }
 .item1 a:link{
     text-decoration: none;
@@ -706,6 +710,7 @@
     background-color: #288ccf65;  
     align-items: center;
     padding: 2em;
+    line-height: 1.5;
 }
 .item3 { 
     grid-area: bilde1; 
@@ -717,6 +722,7 @@
     grid-area: text2; 
     background-color: #288ccf65;  
     padding: 1em;
+    line-height: 1.5;
 }
 .item5 { 
     grid-area: bilde2; 
@@ -730,6 +736,7 @@
     background-color: #ffe852;
     border: 4px solid #ffe852;    
     padding: 1em;
+    line-height: 1.5;
 }
 .item6 img{
     height: 10em;
@@ -917,6 +924,7 @@ hr.footer{
         padding: 1em;
         font-size: larger;
         font-family: sans-serif, Verdana, Geneva, Tahoma;
+        line-height: 1.5;
     }
     #reflection > div{
         padding: 1em;
@@ -956,6 +964,7 @@ hr.footer{
     #java{
         background-color: #288ccf65;
         text-align: right;
+        height: 20em;
     }
 
     #java > #bilder > #imgJavaLearn{   
@@ -987,6 +996,7 @@ hr.footer{
     #html{
         background-color: #60a6d4;
         text-align: left;
+        height: 17em;
     }
     #html >  #bilder >#imgHtmlLearn{
         text-align: left;
@@ -1046,7 +1056,7 @@ hr.footer{
     background-color: #288ccf65;    
     align-items: center;
     padding: 2em;
-    
+    line-height: 1.5;
 }
 .item3 { 
     grid-area: bilde1; 
@@ -1058,6 +1068,7 @@ hr.footer{
     grid-area: text2; 
     background-color: #288ccf65; 
     padding: 1em;
+    line-height: 1.5;
 }
 .item5 { 
     grid-area: bilde2; 
@@ -1071,6 +1082,7 @@ hr.footer{
     background-color: #ffe852;
     border: 4px solid #ffe852;
     padding: 1em;
+    line-height: 1;
 }
 .item6 img{
     height: 10em;
