@@ -394,7 +394,7 @@
 .h1-topical {
     font-style: italic;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, sans-serif, Geneva, Tahoma;
 }
 .h2-topical {
 font-size: 2em;
@@ -402,25 +402,68 @@ text-align: center;
 }
 
 .h3-topical {
-    font-size: 30px;
+    font-size: 15px;
 }
 
 .paragh-intro {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .paragh-intro-card {
-    box-shadow: 0 3px 5px 0 black;
-    width: 90%;
-    padding: 2em;
-    float: left;
-    background-color: #faedcd;
+    border-style: ridge;
+    border-color: darkgoldenrod;
+    margin: 2em;
+    line-height: 1.5;
+    font-family: sans-serif
+}
+
+.paragh-intro-card:hover {
+    box-shadow: 0 4px 14px 0 darkgoldenrod;
+}
+
+.reflection-task-card1 {
+  box-shadow: 0 3px 5px 0 black;
+  border-radius: 6px 6px 0 0;
+  width: 75%;
+  padding: 30px;
+  margin: 2em;
 }
 
 
+/* Bilder til topical page -     */   
+.technology-soceity {
+    height: auto;
+    width: 85%;
+    display: auto;
+    margin: 0px auto;
+  
+  }
 
-
-
+  .smartphones {
+    width: 85%;
+    height: auto;
+    display: block;
+    margin: 0px auto;
+ }
+ 
+  
+  .biden-trump {
+     width: 70%;
+     height: auto;
+     display: block;
+     margin: 0px auto;
+  }
+  
+  .myanmar-coup {
+  width: 60%;
+  height: auto;
+  display: block;
+  margin: 0px auto;
+  
+  }
+  
+  
+  
 
 
 
