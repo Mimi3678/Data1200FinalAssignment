@@ -821,7 +821,7 @@
         display: none;
     }
     img.header-img{
-        width: 100vw;
+        width: 100%;
         object-fit: cover;
     }
     .header1{
@@ -840,16 +840,19 @@
         padding: 0 5vw 0 5vw;
         font-size: x-large;
     }
-    hr.footer{
-        clear: both;
-    }
+hr.footer{
+    clear: both;
+    margin-top: 2vw;
+}
     footer{
+        box-sizing: border-box;
         border-top: black thick;
         margin-top: 2vw;
         text-align: center;
         font-size: x-large;
         font-style: italic;
         clear: both;
+        margin-bottom: -50px;
     }
 
     /* HomePage */
@@ -1193,33 +1196,8 @@
         display: none;
     }
 
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- /* Topical page */
- .links-topical:link {
+/* Topical page */
+.links-topical:link {
     text-decoration: none;
    }
 
@@ -1274,15 +1252,19 @@
    box-shadow: 0 4px 14px 0;
 }
 
-
+.container-topical{
+    width: 95vw;
+    overflow: hidden;
+    height: auto;
+}
 .reflection-task-card1 {
   box-shadow: 0 3px 5px 0 black;
   border-radius: 6px 6px 0 0;
   width: 45%;
-  margin: 10px;
   padding: 30px;
-  display: inline-block;
-  
+  display: inline;
+  float: left;
+  vertical-align: top; 
 }
 
 .reflection-task-card2 {
@@ -1291,9 +1273,10 @@
  width: 45%;
  margin: 10px;
  padding: 30px;
- display: inline-block;
  vertical-align: top;
- float: right;
+ display: inline;
+ float:right;
+
 }
 
 
@@ -1362,6 +1345,20 @@ margin: 0px auto;
 
 
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Fun page */
 #fun{
     background: #c3daff;
@@ -1415,7 +1412,7 @@ margin: 0px auto;
     box-shadow: 0 0 10px 3px black;
     border-radius: 10px;
     border-color:#dbb169 ;
-
+    height: auto;
 }
 
 
