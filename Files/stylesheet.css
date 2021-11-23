@@ -892,7 +892,7 @@
   box-shadow: 0 4px 8px 0 black;
   border-radius: 6px 6px 0 0;
   float: right;
-  margin-top: -100rem;
+  margin-top: -110rem;
 
 }
 
@@ -921,7 +921,6 @@
 /* Bilder til topical page */   
 .technology-soceity {
   height: auto;
-  gap: 10px;
   width: 40%;
   display: auto;
   margin: 0px auto;
@@ -929,8 +928,7 @@
 }
 
 .biden-trump {
-   width: 50%;
-   gap: 10px;
+   width: 70%;
    height: auto;
    display: block;
    margin: 0px auto;
