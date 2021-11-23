@@ -1202,6 +1202,10 @@
    box-shadow: 0 4px 14px 0;
 }
 
+.container-tropical {
+    overflow: hidden;
+    height: auto;
+}
 
 .reflection-task-card1 {
   box-shadow: 0 3px 5px 0 black;
@@ -1209,7 +1213,10 @@
   width: 45%;
   margin: 10px;
   padding: 30px;
-  display: inline-block;
+  display: inline;
+  float: left;
+  
+
   
 }
 
@@ -1220,8 +1227,10 @@
  margin: 10px;
  padding: 30px;
  vertical-align: top;
- display: inline-block;
- float:right;
+ display: inline;
+ float:left;
+ 
+
 }
 
 
@@ -1299,21 +1308,6 @@ margin: 0px auto;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
 
 
 
