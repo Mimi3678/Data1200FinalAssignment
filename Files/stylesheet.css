@@ -356,6 +356,40 @@
  }
 
 
+
+/* Topical- mobile */
+.links-topical:link {
+    text-decoration: none;
+   }
+
+.links-topical:hover {
+    background-color: lightsalmon;
+    text-decoration: underline;
+   }
+
+.figcaption:hover {
+       background-color: lightsalmon;
+       text-decoration: underline; 
+   }
+
+.links-topical:active {
+    background-color: lightpink;
+   }
+
+.h1-topical {
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
