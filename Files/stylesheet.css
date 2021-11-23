@@ -1146,33 +1146,8 @@
         display: none;
     }
 
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- /* Topical page */
- .links-topical:link {
+/* Topical page */
+.links-topical:link {
     text-decoration: none;
    }
 
@@ -1245,6 +1220,7 @@
  margin: 10px;
  padding: 30px;
  vertical-align: top;
+ display: inline-block;
  float:right;
 }
 
@@ -1309,6 +1285,35 @@ margin: 0px auto;
    display: block;
    margin: 0px auto;
 }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 
