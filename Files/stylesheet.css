@@ -62,6 +62,13 @@
     .header1{
         display: none;
     }
+    footer{
+        border-top: black thick;
+        margin-top: 2vw;
+        text-align: center;
+        font-size: x-large;
+        font-style: italic;
+    }
 
     /* HomePage */
 
@@ -312,6 +319,13 @@
         padding: 2vw;
         text-align: center;
         font-size: x-large;
+    }
+    footer{
+        border-top: black thick;
+        margin-top: 2vw;
+        text-align: center;
+        font-size: x-large;
+        font-style: italic;
     }
 
     /* HomePage */
