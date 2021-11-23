@@ -1217,6 +1217,7 @@
   margin: 10px;
   padding: 30px;
   gap: 5px;
+  display: inline-block;
   
 }
 
@@ -1227,7 +1228,9 @@
  margin: 10px;
  float: right;
  padding: 30px;
- margin-top: -110rem;
+ display: inline-block;
+ vertical-align: top;
+ 
 
 }
 
