@@ -1295,30 +1295,6 @@ margin: 0px auto;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
 /* Fun page */
 #fun{
     background: #c3daff;
@@ -1372,7 +1348,7 @@ margin: 0px auto;
     box-shadow: 0 0 10px 3px black;
     border-radius: 10px;
     border-color:#dbb169 ;
-
+    height: auto;
 }
 
 
