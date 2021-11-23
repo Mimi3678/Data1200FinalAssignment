@@ -174,7 +174,7 @@
         align-items: center;
         background-color: #288ccf65;
         text-align: right;
-        height: 45em;
+        height: 46em;
     }
     #java > #bilder > #imgJavaLearn{   
         border-radius: 25px;
@@ -213,6 +213,7 @@
         flex-direction: column;
         gap: 1em;
         align-items: center;
+        height: 44em;
     }
 
     #html >  #bilder >#imgHtmlLearn{
