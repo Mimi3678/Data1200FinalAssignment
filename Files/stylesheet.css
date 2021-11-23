@@ -887,12 +887,13 @@
 .reflection-task-card2 {
   width: 50%;
   float: right;
-  padding: 30px;
+  padding: 40px;
   margin: 10px;
   box-shadow: 0 4px 8px 0 black;
   border-radius: 6px 6px 0 0;
   float: right;
   margin-top: -110rem;
+  
 
 }
 
@@ -921,7 +922,7 @@
 /* Bilder til topical page */   
 .technology-soceity {
   height: auto;
-  width: 40%;
+  width: 60%;
   display: auto;
   margin: 0px auto;
 
