@@ -662,12 +662,12 @@
 
     /* Reflection page */
 
-
+    
     #reflection{        
         width: 90%;
         margin: 2em;
         background-color: white;
-        padding: 1em;
+        padding: 3em;
         font-size: larger;
         font-family: sans-serif, Verdana, Geneva, Tahoma;
     }
@@ -812,7 +812,13 @@
     }
 
 
-    /* Topical page */
+
+}
+
+
+
+
+ /* Topical page */
  .links-topical:link {
     text-decoration: none;
    }
@@ -869,22 +875,22 @@
 }
 
 .reflection-task-card1 {
-  padding: 20px;
+  padding: 30px;
   margin: 10px;
   box-shadow: 0 4px 8px 0 black;
-  width: 800px;
+  width: 40%;
   border-radius: 6px 6px 0 0;
 }
 
 .reflection-task-card2 {
   width: 50%;
   float: right;
-  padding: 20px;
+  padding: 30px;
   margin: 10px;
   box-shadow: 0 4px 8px 0 black;
   border-radius: 6px 6px 0 0;
   float: right;
-  margin-top: -100rem;
+  margin-top: -110rem;
 
 }
 
@@ -913,7 +919,6 @@
 /* Bilder til topical page */   
 .technology-soceity {
   height: auto;
-  gap: 10px;
   width: 40%;
   display: auto;
   margin: 0px auto;
@@ -921,8 +926,7 @@
 }
 
 .biden-trump {
-   width: 50%;
-   gap: 10px;
+   width: 70%;
    height: auto;
    display: block;
    margin: 0px auto;
@@ -942,17 +946,6 @@ margin: 0px auto;
    display: block;
    margin: 0px auto;
 }
-
-
-
-}
-
-
-
-
-
- 
-
 
 
 
