@@ -1205,11 +1205,19 @@ hr.footer{
    box-shadow: 0 4px 14px 0;
 }
 
+<<<<<<< HEAD
 .container-topical{
     width: 95vw;
     overflow: hidden;
     height: auto;
 }
+=======
+.container-tropical {
+    overflow: hidden;
+    height: auto;
+}
+
+>>>>>>> 80e7879e2c40ca3c68ca6822aa8b89d5ac49383f
 .reflection-task-card1 {
   box-shadow: 0 3px 5px 0 black;
   border-radius: 6px 6px 0 0;
@@ -1217,7 +1225,13 @@ hr.footer{
   padding: 30px;
   display: inline;
   float: left;
+<<<<<<< HEAD
   vertical-align: top; 
+=======
+  
+
+  
+>>>>>>> 80e7879e2c40ca3c68ca6822aa8b89d5ac49383f
 }
 
 .reflection-task-card2 {
@@ -1229,6 +1243,9 @@ hr.footer{
  vertical-align: top;
  display: inline;
  float:right;
+ margin-top: -200%;
+ 
+
 }
 
 
@@ -1298,6 +1315,15 @@ margin: 0px auto;
 
 
 }
+
+
+
+
+
+
+
+
+
 
 
 
