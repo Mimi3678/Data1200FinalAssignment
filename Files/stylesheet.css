@@ -8,7 +8,7 @@
         color: white;
         height: auto;
     }
-    img.home-phone1{
+    img.header-phone1{
         position: relative;
         max-width: 100%;
     }
@@ -303,7 +303,7 @@
     .navigation-phone{
         display: none;
     }
-    img.home-phone1{
+    img.header-phone1{
         display: none;
     }
     .header-phone{
@@ -582,7 +582,7 @@
     .navigation-phone{
         display: none;
     }
-    img.home-phone1{
+    img.header-phone1{
         display: none;
     }
     .header-phone{
