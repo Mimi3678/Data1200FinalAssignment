@@ -427,6 +427,7 @@ text-align: center;
   box-shadow: 0 3px 5px 0 darkgoldenrod;
   border-radius: 6px 6px 0 0;
   width: 75%;
+  padding: 1px;
   margin: 4em;
   
 }
@@ -436,7 +437,7 @@ text-align: center;
     border-radius: 6px 6px 0 0;
     width: 75%;
     margin: 4em;
-    
+    padding: 1px;
     
    }
 
