@@ -258,8 +258,8 @@
     #accessibility > div > img{
         border-radius: 25px;
         margin: 1em;
-        height: 10em;
-        width: 10em;
+        height: 9em;
+        width: 18em;
     }
 
     #accessibility > div{
@@ -890,8 +890,8 @@ text-align: center;
     "f f f f";
 }
 #grid-img{
-    height: 12em;
-    width: auto;
+    height: 8em;
+    width: 14em;   
     border-radius: 25px;   
 }
 
@@ -1238,8 +1238,8 @@ hr.footer{
     padding: 1em;
 }
 #grid-img{
-    height: 12em;
-    width: auto;
+    height: 10em;
+    width: 20em;
     border-radius: 25px;   
 }
 
