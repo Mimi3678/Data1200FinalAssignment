@@ -1238,7 +1238,6 @@
    font-size: 25px;
    font-style: italic;
    
-   
 }
 
 .task-paragh {
@@ -1247,7 +1246,7 @@
    letter-spacing: 1px;
 }
 
-p::first-letter {
+.task-paragh::first-letter {
     font-size: 200%;
     color: #8A2BE2;
     font-style: italic;
