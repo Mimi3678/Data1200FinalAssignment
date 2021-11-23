@@ -1208,7 +1208,7 @@
 .reflection-task-card1 {
   box-shadow: 0 3px 5px 0 black;
   border-radius: 6px 6px 0 0;
-  width: 40%;
+  width: 45%;
   margin: 10px;
   padding: 30px;
   display: inline-block;
@@ -1218,12 +1218,12 @@
 .reflection-task-card2 {
  box-shadow: 0 3px 5px 0 black;
  border-radius: 6px 6px 0 0;
- width: 50%;
+ width: 45%;
  margin: 10px;
- float: right;
  padding: 30px;
  display: inline-block;
  vertical-align: top;
+ float: right;
 }
 
 
