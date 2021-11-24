@@ -291,6 +291,10 @@
     #textValidated{
         background-color: #60a6d4;
     }
+    #codingChoises{
+        background-color: #288ccf65;
+
+    }
     #accessibility > div:last-of-type{
         background-color: #ffe852;
     }
@@ -322,7 +326,9 @@
     grid-area: bilde2; 
     border: 4px solid red;
 }
-.item6 { 
+/* ITEM 6*/
+
+.item7  { 
     grid-area: f; 
     border: 4px solid red;
     
@@ -342,6 +348,7 @@
     ". bilde2 text2 ."
     ". bilde2 text2 ."
     ". bilde bilde bilde"
+    ". tekst tekst ."
     "f f f f";
 
     display: none;
@@ -707,7 +714,6 @@ text-align: center;
 
 
     /* HTMLC & CSS */ 
-
     #html{
         background-color: #60a6d4;
         text-align: left;
@@ -799,6 +805,11 @@ text-align: center;
     background-color: #40E4FF;
     display: none;
 }
+
+#codingChoises{
+    background-color: #288ccf65;
+    display: none;
+}
 #accessibility > div:last-of-type{
     background-color: #FFDC00;
     display: none;
@@ -815,6 +826,9 @@ text-align: center;
 /* Skjermstørrelse Minst 
     (min 600px max 960px) */
      /* Styler innholdet i grid'en*/
+
+
+/* Intro */
 .item1 { 
     grid-area: h; 
     border: 4px solid #ffe852; 
@@ -836,6 +850,7 @@ text-align: center;
     color: #60a6d4;
 } 
 
+/* General  */
 .item2 { 
     grid-area: text1; 
     background-color: #288ccf65;  
@@ -849,6 +864,8 @@ text-align: center;
     background-color: #60a6d4; 
     padding: 1em;
 }
+
+/* Checked and validated code */
 .item4 { 
     grid-area: text2; 
     background-color: #288ccf65;  
@@ -861,7 +878,17 @@ text-align: center;
     background-color: #60a6d4; 
     padding: 1em;
 }
-.item6 { 
+
+/* Coding choises made */
+.item6{
+    grid-area: tekst;
+    background-color: #288ccf65; 
+    padding: 1em;
+    line-height: 1;
+}
+
+/* Coding choises made */
+.item7 { 
     grid-area: f; 
     border: 4px solid #ffe852; 
     background-color: #ffe852;
@@ -869,7 +896,7 @@ text-align: center;
     padding: 1em;
     line-height: 1.5;
 }
-.item6 img{
+.item7 img{
     height: 10em;
     border-radius: 25px;
 }
@@ -882,13 +909,14 @@ text-align: center;
     display: grid;
     font-size: medium;
     grid-template-areas: 
-    "h h h h"
+    ". h h ."
     ". text1 bilde1 ."
     ". text1 bilde1 ."
     ". bilde2 text2 ."
     ". bilde2 text2 ."
     ". bilde bilde bilde"
-    "f f f f";
+    ". tekst tekst ."
+    ". f f .";
 }
 #grid-img{
     height: 8em;
@@ -1292,6 +1320,8 @@ margin: 0px auto;
     /* Skjermstørrelse Størst  */
 
     /* Styler innholdet i grid'en*/
+
+/* Intro */
 .item1 { 
     grid-area: h; 
     border: 4px solid #ffe852; 
@@ -1321,12 +1351,16 @@ margin: 0px auto;
     padding: 2em;
     line-height: 1.5;
 }
+
+/* General  */
 .item3 { 
     grid-area: bilde1; 
     border: 4px solid #60a6d4; 
     background-color: #60a6d4; 
     padding: 1em;
 }
+
+/* Checked and validated code */
 .item4 { 
     grid-area: text2; 
     background-color: #288ccf65; 
@@ -1339,7 +1373,17 @@ margin: 0px auto;
     background-color: #60a6d4; 
     padding: 1em;
 }
-.item6 { 
+
+/* Coding choises made */
+.item6{
+    grid-area: tekst;
+    background-color: #288ccf65; 
+    padding: 1em;
+    line-height: 1;
+}
+
+/* Coding choises made */
+.item7 { 
     grid-area: f; 
     border: 4px solid #ffe852; 
     background-color: #ffe852;
@@ -1347,7 +1391,7 @@ margin: 0px auto;
     padding: 1em;
     line-height: 1;
 }
-.item6 img{
+.item7 img{
     height: 10em;
     border-radius: 25px;
 }
@@ -1359,13 +1403,14 @@ margin: 0px auto;
     border: 2px solid white;
     display: grid;
     grid-template-areas: 
-    "h h h h"
+    ". h h ."
     ". text1 bilde1 ."
     ". text1 bilde1 ."
     ". bilde2 text2 ."
     ". bilde2 text2 ."
     ". bilde bilde bilde"
-    "f f f f";
+    ". tekst tekst ."
+    ". f f .";
 }
 #grid-container > .class{
     padding: 1em;
@@ -1436,6 +1481,10 @@ margin: 0px auto;
 
     #textValidated{
         background-color: #40E4FF;
+        display: none;
+    }
+    #codingChoises{
+        background-color: #288ccf65;
         display: none;
     }
     #accessibility > div:last-of-type{
