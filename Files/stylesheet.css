@@ -264,11 +264,12 @@
     #accessibility > div{
         padding: 1em;
         gap: 1em;
-        
+        line-height: 1.5;;
     }
     #accessibilityIntro{
         background-color: #ffe852;
         height: auto;
+        padding: 0em;
     }
     #accessibilityIntro a:link{
         color: #0f3e5e;
@@ -840,7 +841,7 @@ text-align: center;
     background-color: #ffe852;    
     height: 7em;
     text-align: center;
-    padding: 1em;
+    padding: 2em;
     line-height: 1.5;
 }
 .item1 a:link{
@@ -1334,7 +1335,7 @@ margin: 0px auto;
     background-color: #ffe852;
     height: 4em;
     text-align: center;
-    padding: 1em;
+    padding: 2em;
 }
 
 .item1 a:link{
