@@ -1379,122 +1379,102 @@
         display: none;
     }
 
-<<<<<<< HEAD
-/* Topical page */
 
+
+/* Topical page */
 .links-topical:link {
-    text-decoration: none;
+text-decoration: none;
 }
 
 .links-topical:active {
-    background-color: lightpink;
+background-color: lightpink;
 }
 
 .links-topical:hover {
-    background-color: white;
-    text-decoration: underline;
+background-color: white;
+text-decoration: underline;
 }
-=======
-    /* Topical page */
-    .links-topical:link {
-        text-decoration: none;
-    }
->>>>>>> 9629627ee049a498cc465f56de6cb3717be819ca
 
-    .links-topical:active {
-        background-color: lightpink;
-    }
+.paragh-intro-card:hover {
+box-shadow: 0 4px 14px 0;
+}
 
-    .links-topical:hover {
-        background-color: white;
-        text-decoration: underline;
-    }
+.figcaption:hover {
+background-color: white;
+text-decoration: underline; 
+}
 
-    .figcaption:hover {
-    background-color: white;
-    text-decoration: underline; 
-    }
+.h1-topical {
+font-size: 4em;
+font-family: Verdana, sans-serif, Geneva, Tahoma;
+text-align: center;
+margin-top: 70px; 
+}
 
-    .h1-topical {
-    font-size: 4em;
-    font-family: Verdana, sans-serif, Geneva, Tahoma;
-    text-align: center;
-    margin-top: 70px; 
-    }
-
-    .h2-topical {
-    font-size: 3em;
-    font-family: Verdana, sans-serif, Geneva, Tahoma;
-    text-align: center;
-    font-size: 2em;
-    letter-spacing: 1px;  
+.h2-topical {
+font-size: 3em;
+font-family: Verdana, sans-serif, Geneva, Tahoma;
+text-align: center;
+font-size: 2em;
+letter-spacing: 1px;  
 }
 
 .paragh-intro-card {
-    box-shadow: 0 3px 8px 0 black;
-    width: 80%;
-    margin-left:3.5%;
-    text-align: right;
-    padding: 5em;
-    background-color: #faedcd;
-}
-
-
-.paragh-intro-card:hover {
-   box-shadow: 0 4px 14px 0;
+box-shadow: 0 3px 8px 0 black;
+width: 80%;
+margin-left:3.5%;
+text-align: right;
+padding: 5em;
+background-color: #faedcd;
 }
 
 .container-topical {
-    height: auto;
-    overflow: hidden;
+height: auto;
+overflow: hidden;
 }
 
 .reflection-task-card1 {
-  box-shadow: 0 3px 5px 0 black;
-  border-radius: 6px 6px 0 0;
-  width: 40%;
-  padding: 30px;
-  margin-left: 3%;
-  display: inline;
-  float: left;
-  padding-bottom: 100%;
-  margin-bottom: -100%;
-  background-image: linear-gradient(180deg, beige, brown);
+box-shadow: 0 3px 5px 0 black;
+border-radius: 6px 6px 0 0;
+width: 40%;
+padding: 30px;
+margin-left: 3%;
+display: inline;
+float: left;
+padding-bottom: 100%;
+margin-bottom: -100%;
+background-image: linear-gradient(180deg, beige, brown);
 }
 
 .reflection-task-card2 {
-    box-shadow: 0 3px 5px 0 black;
-    border-radius: 6px 6px 0 0;
-    width: 40%;
-    margin-right: 3%;
-    padding: 30px;
-    vertical-align: top;
-    display: inline;
-    float:right;
-    vertical-align: top;
-    padding-bottom: 100%;
-    margin-bottom: -100%;
-    background-image: linear-gradient(180deg, beige, brown );
+box-shadow: 0 3px 5px 0 black;
+border-radius: 6px 6px 0 0;
+width: 40%;
+margin-right: 3%;
+padding: 30px;
+vertical-align: top;
+display: inline;
+float:right;
+vertical-align: top;
+padding-bottom: 100%;
+margin-bottom: -100%;
+background-image: linear-gradient(180deg, beige, brown );
 }
 
-    .paragh-intro {
-        text-align: center;
-        font-size: 2em;
-        letter-spacing: 1px;
-        
-    }
-    .paragh-intro-card {
-        box-shadow: 0 3px 8px 0 black;
-        width: 80%;
-        margin-left:3.5%;
-        text-align: right;
-        padding: 5em;
-        background-color: #faedcd;
-    }
+.paragh-intro {
+text-align: center;
+font-size: 2em;
+letter-spacing: 1px;    
+}
 
-    .paragh-intro-card:hover {
-    box-shadow: 0 4px 14px 0;
-    }
+.paragh-intro-card {
+ box-shadow: 0 3px 8px 0 black;
+ width: 80%;
+ margin-left:3.5%;
+ text-align: right;
+ padding: 5em;
+ background-color: #faedcd;
+}
 
 .task-introduction {
 text-align:left;
@@ -1514,19 +1494,15 @@ color: #8A2BE2;
 font-style: italic;
 }
 
-.task-conclusion {
-font-size: 25px;
-}
-
 .figcaptions {
 text-align: center;
 font-size: 20px;
 font-style: italic;
 }
 
-    .task-conclusion {
-    font-size: 25px;
-    }
+.task-conclusion {
+font-size: 25px;
+}
 
 /* Bilder til topical page */   
 .container-topical img{
@@ -1535,8 +1511,6 @@ width: auto;
 display: block;
 margin: 0px auto;
 }
-
-
 
 
 }
