@@ -814,6 +814,7 @@ text-align: center;
 /* Accessibility page  GRID*/
 /* Skjermstørrelse Minst 
     (min 600px max 960px) */
+     /* Styler innholdet i grid'en*/
 .item1 { 
     grid-area: h; 
     border: 4px solid #ffe852; 
@@ -1289,6 +1290,8 @@ margin: 0px auto;
 
     /* Accessibility page  GRID */
     /* Skjermstørrelse Størst  */
+
+    /* Styler innholdet i grid'en*/
 .item1 { 
     grid-area: h; 
     border: 4px solid #ffe852; 
