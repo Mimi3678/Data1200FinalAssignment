@@ -410,7 +410,9 @@
     display: auto;
     margin: 0px auto;
   }
-  
+
+
+
 }
 
 
@@ -512,7 +514,7 @@
 
 
     /* Reflection */
-    /* Skjermstørrelse Minst (min 600px max 960px) */
+    /* Skjermstørrelse mellomst (min 600px max 960px) */
 
     /* Overall reflection page */ 
     #reflection{        
@@ -657,7 +659,7 @@
 
 
     /* Accessibility page */
-    /* Skjermstørrelse Minst (min 600px max 960px) */
+    /* Skjermstørrelse Mellomst (min 600px max 960px) */
 
     /* Overall accessibility page */
     #accessibility{
@@ -673,36 +675,25 @@
 
     /* Vises ikke på mellomste skjerm */
     #accessibility > div > img{
-        border: 2px solid black;
-        border-radius: 25px;
-        margin: 1em;
-        height: 10em;
-        width: 10em;
         display: none;
     }
     #accessibility > div{
         padding: 1em;
     }
     #accessibilityIntro{
-        background-color: #FFDC00;
-        height: 5em;
         display: none;
     }  
     #textAccessibility{
-        background-color: #288dcf;
         display: none;
     }
     #textValidated{
-        background-color: #40E4FF;
         display: none;
     }
 
     #codingChoises{
-        background-color: #288ccf65;
         display: none;
     }
     #accessibility > div:last-of-type{
-        background-color: #FFDC00;
         display: none;
     }
     /* Accessibility page  GRID
