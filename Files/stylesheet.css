@@ -1507,6 +1507,8 @@ margin: 0px auto;
   margin-left: 3%;
   display: inline;
   float: left;
+  padding-bottom: 100%;
+  margin-bottom: -100%;
 }
 
 .reflection-task-card2 {
@@ -1520,6 +1522,8 @@ margin: 0px auto;
  display: inline;
  float:right;
  vertical-align: top;
+ padding-bottom: 100%;
+ margin-bottom: -100%;
 }
 
 
