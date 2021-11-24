@@ -929,32 +929,15 @@ Styler innholdet i grid'en*/
         font-style: italic;
     }
 
-/* Bilder til topical page */   
-    .technology-soceity {
+/* Bilder til topical page */ 
+
+    .container-topical img{
         height: 100px;
         width: auto;
         display: auto;
         margin: 0px auto;
     }
-
-    .biden-trump {
-        width: auto;
-        height: 100px;
-        display: block;
-        margin: 0px auto;
-    }
-    .myanmar-coup {
-        width: auto;
-        height: 100px;
-        display: block;
-        margin: 0px auto;
-    }
-    .smartphones {
-        width: auto;
-        height: 100px;
-        display: block;
-        margin: 0px auto;
-    }
+    
 }
 
 
