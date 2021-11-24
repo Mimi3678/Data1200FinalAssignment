@@ -1044,7 +1044,6 @@ Styler innholdet i grid'en*/
         text-align: center;
         font-size: x-large;
         font-style: italic;
-        margin-bottom: -50px;
     }
 
     /* HomePage */
@@ -1390,7 +1389,6 @@ Styler innholdet i grid'en*/
     .links-topical:active {
         background-color: lightpink;
     }
-
     .links-topical:hover {
         background-color: white;
         text-decoration: underline;
@@ -1416,13 +1414,41 @@ Styler innholdet i grid'en*/
         letter-spacing: 1px;  
     }
 
-    .paragh-intro-card {
-        box-shadow: 0 3px 8px 0 black;
-        width: 80%;
-        margin-left:3.5%;
-        text-align: right;
-        padding: 5em;
-        background-color: #faedcd;
+    .links-topical:active {
+        background-color: lightpink;
+    }
+
+    .links-topical:hover {
+        background-color: white;
+        text-decoration: underline;
+    }
+
+    .figcaption:hover {
+    background-color: white;
+    text-decoration: underline; 
+    }
+
+    .h1-topical {
+    font-size: 4em;
+    font-family: Verdana, sans-serif, Geneva, Tahoma;
+    text-align: center;
+    margin-top: 70px; 
+    }
+
+    .h2-topical {
+    font-size: 3em;
+    font-family: Verdana, sans-serif, Geneva, Tahoma;
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 1px;  
+}
+.paragh-intro-card {
+    box-shadow: 0 3px 8px 0 black;
+    width: 80%;
+    margin-left:3.5%;
+    text-align: right;
+    padding: 5em;
+    background-color: #faedcd;
 }
 
 
@@ -1508,14 +1534,7 @@ Styler innholdet i grid'en*/
         margin: 0px auto;
     }
 
-
-
-
 }
-
-
-
-
 
 
 
@@ -1577,6 +1596,5 @@ Styler innholdet i grid'en*/
         border-color:#dbb169 ;
         height: auto;
     }
-
 
 
