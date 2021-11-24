@@ -264,7 +264,7 @@
     #accessibility > div{
         padding: 1em;
         gap: 1em;
-        line-height: 1.5;;
+        line-height: 1.5;
     }
     #accessibilityIntro{
         background-color: #ffe852;
@@ -285,8 +285,6 @@
     }  
 
 
-
-
     #textAccessibility{
         background-color: #288ccf65;
     }
@@ -297,7 +295,6 @@
     }
     #codingChoises{
         background-color: #288ccf65;
-
     }
     #accessibility > div:last-of-type{
         background-color: #ffe852;
@@ -891,7 +888,7 @@ text-align: center;
     grid-area: tekst;
     background-color: #288ccf65; 
     padding: 1em;
-    line-height: 1;
+    line-height: 1.5;
 }
 
 /* Coding choises made */
@@ -1386,7 +1383,7 @@ margin: 0px auto;
     grid-area: tekst;
     background-color: #288ccf65; 
     padding: 1em;
-    line-height: 1;
+    line-height: 1.5;
 }
 
 /* Coding choises made */
