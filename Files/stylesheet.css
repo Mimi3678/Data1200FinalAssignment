@@ -271,6 +271,7 @@
         height: auto;
     }
     #accessibilityIntro a:link{
+        color: #0f3e5e;
         text-decoration: none;
     }
            
@@ -279,8 +280,10 @@
         font-size: 1.1em;
     }
     #accessibilityIntro a:visited{
-        color: #60a6d4;
-    } 
+        color: #0f3e5e;
+    }  
+
+
 
 
     #textAccessibility{
@@ -841,16 +844,17 @@ text-align: center;
     line-height: 1.5;
 }
 .item1 a:link{
+    color: #0f3e5e;
     text-decoration: none;
 }
        
 .item1 a:hover{
     text-decoration: underline;
-    font-size: 1em;
+    font-size: 1.1em;
 }
 .item1 a:visited{
-    color: #60a6d4;
-} 
+    color: #0f3e5e;
+}   
 
 /* General  */
 .item2 { 
@@ -1334,7 +1338,7 @@ margin: 0px auto;
 }
 
 .item1 a:link{
-    color: #60a6d4;
+    color: #0f3e5e;
     text-decoration: none;
 }
        
@@ -1343,7 +1347,7 @@ margin: 0px auto;
     font-size: 1.1em;
 }
 .item1 a:visited{
-    color: #60a6d4;
+    color: #0f3e5e;
 }   
 
 .item2 { 
