@@ -1467,19 +1467,19 @@
     text-decoration: none;
    }
 
+.links-topical:active {
+    background-color: lightpink;
+   }
+
 .links-topical:hover {
     background-color: white;
     text-decoration: underline;
    }
 
 .figcaption:hover {
-       background-color: white;
-       text-decoration: underline; 
-   }
-
-.links-topical:active {
-    background-color: lightpink;
-   }
+background-color: white;
+text-decoration: underline; 
+}
 
 .h1-topical {
    font-size: 4em;
