@@ -879,7 +879,6 @@ Styler innholdet i grid'en*/
         border-radius: 6px 6px 0 0;
         width: 35%;
         padding: 30px;
-        padding-bottom: 0;
         margin-left: 4%;
         display: inline;
         float: left;
@@ -894,11 +893,9 @@ Styler innholdet i grid'en*/
         width: 35%;
         margin-right: 3%;
         padding: 30px;
-        padding-bottom: 0;
         vertical-align: top;
         display: inline;
         float:right;
-        vertical-align: top;
         padding-bottom: 100%;
         margin-bottom: -100%;
         background-image: linear-gradient(180deg, beige, white, brown );
