@@ -414,7 +414,7 @@ text-align: center;
     margin: 4em;
     line-height: 1.5;
     font-family: sans-serif;
-    padding: 15px;
+    padding: 12px 15px;
 }
 
 .paragh-intro-card:hover {
@@ -425,7 +425,6 @@ text-align: center;
   box-shadow: 0 3px 5px 0 darkgoldenrod;
   border-radius: 6px 6px 0 0;
   width: 75%;
-  padding: 1em;
   margin: 4em;
   padding: 15px;
   
