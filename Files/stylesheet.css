@@ -563,7 +563,7 @@
     }
 
     /* HomePage */
-    
+
     .bilder {
         display: none;
     }
@@ -608,8 +608,9 @@
 
 
 /* Reflection */
-/* Skjermstørrelse Minst 
-    (min 600px max 960px) */
+/* Skjermstørrelse Minst (min 600px max 960px) */
+
+/* Overall reflection page */ 
     #reflection{        
         background-color: white;
         margin: 1em;
@@ -620,11 +621,11 @@
     }
     #reflection > div{
         padding: 1em;
-    }
-    /* Overall reflection page */ 
+    }    
     #reflection > h1{
         letter-spacing: 0.3em;
     } 
+
     /* General text */ 
     #general{
         background-color: #ffe852;
@@ -680,7 +681,7 @@
     #javaLearn{
         vertical-align: middle;
     }
-
+    /* JAVA images */
     #imgJavaLearn{
         display: flex;
         flex-basis: auto;
@@ -693,13 +694,11 @@
         line-height: 1em;
         height: 200px;
     }
-
     #java > #bilder > #imgJavaLearn{
         height: 170px;
         transition: 2s; 
         transition-timing-function: ease;
     }
-
     #java > #bilder > #imgJavaLearn:hover{
         width: 200px;
         height: 200x;
@@ -756,20 +755,21 @@
 
 
 /* Accessibility page */
-/* Skjermstørrelse Minst 
-    (min 600px max 960px) */
+/* Skjermstørrelse Minst (min 600px max 960px) */
 
+/* Overall accessibility page */
 #accessibility{
     width: 90%;
     margin: 1em;
     background-color:  white;
     font-size: larger;
     font-family: sans-serif, Verdana, Geneva, Tahoma;
-    
 }
 #accessibility > h1{
     letter-spacing: 0.3em;
 } 
+
+/* Vises ikke på mellomste skjerm */
 #accessibility > div > img{
     border: 2px solid black;
     border-radius: 25px;
@@ -778,7 +778,6 @@
     width: 10em;
     display: none;
 }
-
 #accessibility > div{
     padding: 1em;
 }
@@ -787,16 +786,10 @@
     height: 5em;
     display: none;
 }  
-
-
-
-
 #textAccessibility{
     background-color: #288dcf;
     display: none;
 }
-
-
 #textValidated{
     background-color: #40E4FF;
     display: none;
@@ -810,20 +803,11 @@
     background-color: #FFDC00;
     display: none;
 }
+    /* Accessibility page  GRID
+    Skjermstørrelse Minst (min 600px max 960px)
+    Styler innholdet i grid'en*/
 
-
-
-
-
-
-
-
-/* Accessibility page  GRID*/
-/* Skjermstørrelse Minst 
-    (min 600px max 960px) */
-     /* Styler innholdet i grid'en*/
-
-
+/* Innhold */
 /* Intro */
 .item1 { 
     grid-area: h; 
@@ -838,7 +822,6 @@
     color: #0f3e5e;
     text-decoration: none;
 }
-       
 .item1 a:hover{
     text-decoration: underline;
     font-size: 1.1em;
@@ -847,7 +830,7 @@
     color: #0f3e5e;
 }   
 
-/* General  */
+/* General */
 .item2 { 
     grid-area: text1; 
     background-color: #288ccf65;  
@@ -895,10 +878,8 @@
 
 /* Coding choises made */
 .item7 { 
-    grid-area: f; 
-    border: 4px solid #ffe852; 
-    background-color: #ffe852;
-    border: 4px solid #ffe852;    
+    grid-area: f;
+    background-color: #ffe852;  
     padding: 1em;
     line-height: 1.5;
 }
@@ -910,19 +891,18 @@
 .grid-container { 
     grid-gap: 5px;
     background-color: white;
-    grid-template-rows: auto;
     border: 2px solid white;
+    grid-template-rows: auto;
     display: grid;
     font-size: medium;
     grid-template-areas: 
     ". h h ."
+    ". text1 bilde1 ." /* General*/
     ". text1 bilde1 ."
-    ". text1 bilde1 ."
+    ". bilde2 text2 ." /* Checked, validated code*/
     ". bilde2 text2 ."
-    ". bilde2 text2 ."
-    ". bilde bilde bilde"
-    ". tekst tekst ."
-    ". f f .";
+    ". tekst tekst ." /* Code choises for univesal design */
+    ". f f ."; /* Conclution */
 }
 #grid-img{
     height: 8em;
@@ -1414,13 +1394,12 @@ margin: 0px auto;
     display: grid;
     grid-template-areas: 
     ". h h ."
+    ". text1 bilde1 ." /* General*/
     ". text1 bilde1 ."
-    ". text1 bilde1 ."
+    ". bilde2 text2 ." /* Checked, validated code*/
     ". bilde2 text2 ."
-    ". bilde2 text2 ."
-    ". bilde bilde bilde"
-    ". tekst tekst ."
-    ". f f .";
+    ". tekst tekst ." /* Code choises for univesal design */
+    ". f f ."; /* Conclution */
 }
 #grid-container > .class{
     padding: 1em;
