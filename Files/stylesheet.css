@@ -1357,44 +1357,37 @@
     .links-topical:link {
         text-decoration: none;
     }
-
     .links-topical:active {
         background-color: lightpink;
     }
-
     .links-topical:hover {
         background-color: white;
         text-decoration: underline;
     }
-
     .figcaption:hover {
-    background-color: white;
-    text-decoration: underline; 
+        background-color: white;
+        text-decoration: underline; 
     }
 
     .h1-topical {
-    font-size: 4em;
-    font-family: Verdana, sans-serif, Geneva, Tahoma;
-    text-align: center;
-    margin-top: 70px; 
+        font-size: 4em;
+        font-family: Verdana, sans-serif, Geneva, Tahoma;
+        text-align: center;
+        margin-top: 70px; 
     }
-
     .h2-topical {
-    font-size: 3em;
-    font-family: Verdana, sans-serif, Geneva, Tahoma;
-    text-align: center;
-    margin-top: 100px;
+        font-size: 3em;
+        font-family: Verdana, sans-serif, Geneva, Tahoma;
+        text-align: center;
+        margin-top: 100px;
     }
-
     .h3-topical {
-    font-size: 30px;
+        font-size: 30px;
     }
-
     .paragh-intro {
         text-align: center;
         font-size: 2em;
         letter-spacing: 1px;
-        
     }
     .paragh-intro-card {
         box-shadow: 0 3px 8px 0 black;
@@ -1406,7 +1399,7 @@
     }
     /* prøv å ha noe kult effekt her */
     .paragh-intro-card:hover {
-    box-shadow: 0 4px 14px 0;
+        box-shadow: 0 4px 14px 0;
     }
 
     .container-topical{
@@ -1414,49 +1407,45 @@
         overflow: hidden;
     }
     .reflection-task-card1 {
-    box-shadow: 0 3px 5px 0 black;
-    border-radius: 6px 6px 0 0;
-    width: 40%;
-    padding: 30px;
-    padding-bottom: 0;
-    margin-left: 3%;
-    display: inline;
-    float: left;
-    padding-bottom: 100%;
-    margin-bottom: -100%;
-    background-image: linear-gradient(180deg, beige, brown);
+        box-shadow: 0 3px 5px 0 black;
+        border-radius: 6px 6px 0 0;
+        width: 40%;
+        padding: 30px;
+        padding-bottom: 0;
+        margin-left: 3%;
+        display: inline;
+        float: left;
+        padding-bottom: 100%;
+        margin-bottom: -100%;
+        background-image: linear-gradient(180deg, beige, brown);
     }
-
     .reflection-task-card2 {
-    box-shadow: 0 3px 5px 0 black;
-    border-radius: 6px 6px 0 0;
-    width: 40%;
-    margin-right: 2.5%;
-    padding: 30px;
-    padding-bottom: 0;
-    vertical-align: top;
-    display: inline;
-    float:right;
-    vertical-align: top;
-    padding-bottom: 100%;
-    margin-bottom: -100%;
-    background-image: linear-gradient(180deg, beige, brown);
+        box-shadow: 0 3px 5px 0 black;
+        border-radius: 6px 6px 0 0;
+        width: 40%;
+        margin-right: 2.5%;
+        padding: 30px;
+        padding-bottom: 0;
+        vertical-align: top;
+        display: inline;
+        float:right;
+        vertical-align: top;
+        padding-bottom: 100%;
+        margin-bottom: -100%;
+        background-image: linear-gradient(180deg, beige, brown);
     }
-
 
     .task-introduction {
-    text-align:left;
-    font-size: 25px;
-    font-style: italic;
-    
+        text-align:left;
+        font-size: 25px;
+        font-style: italic;
     }
 
     .task-paragh {
-    text-align: left;
-    font-size: 25px;
-    letter-spacing: 1px;
+        text-align: left;
+        font-size: 25px;
+        letter-spacing: 1px;
     }
-
     .task-paragh::first-letter {
         font-size: 200%;
         color: #8A2BE2;
@@ -1464,60 +1453,43 @@
     }
 
     .task-conclusion {
-    font-size: 25px;
+        font-size: 25px;
     }
-
     .figcaptions{
-    text-align: center;
-    font-size: 20px;
-    font-style: italic;
+        text-align: center;
+        font-size: 20px;
+        font-style: italic;
     }
-
 
     /* Bilder til topical page */   
     .technology-soceity {
-    height: 200px;
-    width: auto;
-    display: block;
-    margin: 0px auto;
-
+        height: 200px;
+        width: auto;
+        display: block;
+        margin: 0px auto;
     }
-
     .biden-trump {
-    width: auto;
-    height: 200px;
-    display: block;
-    margin: 0px auto;
+        width: auto;
+        height: 200px;
+        display: block;
+        margin: 0px auto;
     }
-
     .myanmar-coup {
-    width: auto;
-    height: 200px;
-    display: block;
-    margin: 0px auto;
-
+        width: auto;
+        height: 200px;
+        display: block;
+        margin: 0px auto;
     }
-
     .smartphones {
-    width: auto;
-    height: 200px;
-    display: block;
-    margin: 0px auto;
+        width: auto;
+        height: 200px;
+        display: block;
+        margin: 0px auto;
     }
 
 
 
-
-
     }
-
-
-
-
-
-
-
-
 
 
 
@@ -1527,7 +1499,6 @@
     #fun{
         background: #c3daff;
     }
-
     #fun main{
         min-width: 240px;
         padding:1em;
@@ -1537,10 +1508,8 @@
         border-style: solid;
         background:#7f8ea7;
         color: #000;
-        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
     }
-
     #fun ol{
         padding: 1em;
         background: #c3daff;
@@ -1549,17 +1518,14 @@
         font-size: 14pt;
         color: #000;
     }
-
     #fun li{
         background:#dbb169;
         margin: 1em;
         padding:0.5em;
         border-radius: 20px;
         border-style: solid;
-        box-shadow: 0 0 10px 3px black;
-        
+        box-shadow: 0 0 10px 3px black;   
     }
-
     #funbilder{
         display:flex;
         flex-wrap: wrap;
@@ -1570,7 +1536,6 @@
         padding: 1em;
         background-color: #c3daff;
     }
-
     #funbilder img{
         border-style:groove;
         box-shadow: 0 0 10px 3px black;
@@ -1578,14 +1543,3 @@
         border-color:#dbb169 ;
         height: auto;
     }
-
-
-
-x
-
-
-
-
-
-
-    
