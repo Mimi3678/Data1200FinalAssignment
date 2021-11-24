@@ -303,81 +303,9 @@
         (maxt width 600px)  */
 
     /* Vises ikke på liten skjerm*/
-    .item1 { 
-        grid-area: h; 
-        border: 4px solid red;
-        height: 4em;
-        text-align: center;
-    }
-    .item2 { 
-        grid-area: text1; 
-        border: 4px solid red;    
-        align-items: center;
-    }
-    .item3 { 
-        grid-area: bilde1; 
-        border: 4px solid red; 
-    }
-    .item4 { 
-        grid-area: text2; 
-        border: 4px solid red;
-    }
-    .item5 { 
-        grid-area: bilde2; 
-        border: 4px solid red;
-    }
-    /* ITEM 6*/
-
-    .item7  { 
-        grid-area: f; 
-        border: 4px solid red;
-        
-    }
-
+   
     .grid-container { 
-        grid-gap: 5px;
-        background-color: #2196F3;
-        padding: 0em;
-        grid-template-rows: auto;
-        border: 2px solid black;
-        display: grid;
-        grid-template-areas: 
-        "h h h h"
-        ". text1 bilde1 ."
-        ". text1 bilde1 ."
-        ". bilde2 text2 ."
-        ". bilde2 text2 ."
-        ". bilde bilde bilde"
-        ". tekst tekst ."
-        "f f f f";
-
         display: none;
-    }
-
-    #grid-img{
-        height: 15em;
-        width: auto;
-        border-radius: 25px;   
-    }
-
-    .grid-inline-container{
-        display: inline-grid;
-    }
-
-    .start {
-        align-items: start;
-    }
-
-    .end {
-        align-items: end;
-    }
-
-    .center {
-        align-items: center;
-    }
-
-    .stretch {
-        align-items: stretch
     }
 
     /* Topical- mobile */
@@ -953,116 +881,114 @@
     }
 
     .h3-topical {
-    font-size: 30px;
+        font-size: 30px;
     }
 
     .paragh-intro {
-    text-align: center;
-    font-size: 1.5em;
-    letter-spacing: 1px;
-
+        text-align: center;
+        font-size: 1.5em;
+        letter-spacing: 1px;
     }
     .paragh-intro-card {
-    box-shadow: 0 3px 8px 0 black;
-    width: 80%;
-    margin-left:3.5%;
-    text-align: right;
-    padding: 3em;
-    background-color: #faedcd;
+        box-shadow: 0 3px 8px 0 black;
+        width: 80%;
+        margin-left:3.5%;
+        text-align: right;
+        padding: 3em;
+        background-color: #faedcd;
     }
     /* prøv å ha noe kult effekt her */
     .paragh-intro-card:hover {
-    box-shadow: 0 4px 14px 0;
+        box-shadow: 0 4px 14px 0;
     }
 
     .container-topical{
-    height: auto;
-    overflow: hidden;
+        height: auto;
+        overflow: hidden;
     }
     .reflection-task-card1 {
-    box-shadow: 0 3px 5px 0 black;
-    border-radius: 6px 6px 0 0;
-    width: 35%;
-    padding: 30px;
-    padding-bottom: 0;
-    margin-left: 4%;
-    display: inline;
-    float: left;
-    padding-bottom: 100%;
-    margin-bottom: -100%;
-    background-image: linear-gradient(180deg, beige, white, brown );
+        box-shadow: 0 3px 5px 0 black;
+        border-radius: 6px 6px 0 0;
+        width: 35%;
+        padding: 30px;
+        padding-bottom: 0;
+        margin-left: 4%;
+        display: inline;
+        float: left;
+        padding-bottom: 100%;
+        margin-bottom: -100%;
+        background-image: linear-gradient(180deg, beige, white, brown );
     }
 
     .reflection-task-card2 {
-    box-shadow: 0 3px 5px 0 black;
-    border-radius: 6px 6px 0 0;
-    width: 35%;
-    margin-right: 3%;
-    padding: 30px;
-    padding-bottom: 0;
-    vertical-align: top;
-    display: inline;
-    float:right;
-    vertical-align: top;
-    padding-bottom: 100%;
-    margin-bottom: -100%;
-    background-image: linear-gradient(180deg, beige, white, brown );
+        box-shadow: 0 3px 5px 0 black;
+        border-radius: 6px 6px 0 0;
+        width: 35%;
+        margin-right: 3%;
+        padding: 30px;
+        padding-bottom: 0;
+        vertical-align: top;
+        display: inline;
+        float:right;
+        vertical-align: top;
+        padding-bottom: 100%;
+        margin-bottom: -100%;
+        background-image: linear-gradient(180deg, beige, white, brown );
     }
 
     .task-introduction {
-    text-align:left;
-    font-size: 1em;
-    font-style: italic;
+        text-align:left;
+        font-size: 1em;
+        font-style: italic;
     }
 
     .task-paragh {
-    text-align: left;
-    font-size: 1em;
-    letter-spacing: 1px;
+        text-align: left;
+        font-size: 1em;
+        letter-spacing: 1px;
     }
 
     .task-paragh::first-letter {
-    font-size: 200%;
-    color: #8A2BE2;
-    font-style: italic;
+        font-size: 200%;
+        color: #8A2BE2;
+        font-style: italic;
     }
 
     .task-conclusion {
-    font-size: 1em;
+        font-size: 1em;
     }
 
     .figcaptions{
-    text-align: center;
-    font-size: 1em;
-    font-style: italic;
+        text-align: center;
+        font-size: 1em;
+        font-style: italic;
     }
 
     /* Bilder til topical page */   
     .technology-soceity {
-    height: 100px;
-    width: auto;
-    display: auto;
-    margin: 0px auto;
-
+        height: 100px;
+        width: auto;
+        display: auto;
+        margin: 0px auto;
     }
 
     .biden-trump {
-    width: auto;
-    height: 100px;
-    display: block;
-    margin: 0px auto;
+        width: auto;
+        height: 100px;
+        display: block;
+        margin: 0px auto;
     }
     .myanmar-coup {
-    width: auto;
-    height: 100px;
-    display: block;
-    margin: 0px auto;
+        width: auto;
+        height: 100px;
+        display: block;
+        margin: 0px auto;
     }
     .smartphones {
-    width: auto;
-    height: 100px;
-    display: block;
-    margin: 0px auto;
+        width: auto;
+        height: 100px;
+        display: block;
+        margin: 0px auto;
     }
 }
 
@@ -1110,8 +1036,8 @@
         font-size: x-large;
     }
     hr.footer{
-    clear: both;
-    margin-top: 2%;
+        clear: both;
+        margin-top: 2%;
     }
     footer{
         box-sizing: border-box;
@@ -1146,7 +1072,7 @@
         max-height: 60vw;
     }
     .active {
-    background-color: #717171;
+        background-color: #717171;
     }
 
     h1.home{
@@ -1174,7 +1100,6 @@
 
     /* Reflection page */
 
-    
     #reflection{        
         width: 90%;
         margin: 2em;
@@ -1249,6 +1174,7 @@
         vertical-align: middle;
     }
 
+    
     /* HTMLC & CSS */ 
 
     #html{
@@ -1279,142 +1205,134 @@
 
 
 
-
-
-
-
-
-
     /* Accessibility page  GRID */
     /* Skjermstørrelse Størst  */
 
     /* Styler innholdet i grid'en*/
 
-/* Intro */
-.item1 { 
-    grid-area: h; 
-    border: 4px solid #ffe852; 
-    background-color: #ffe852;
-    height: 4em;
-    text-align: center;
-    padding: 2em;
-}
+    /* Intro */
+    .item1 { 
+        grid-area: h; 
+        border: 4px solid #ffe852; 
+        background-color: #ffe852;
+        height: 4em;
+        text-align: center;
+        padding: 2em;
+    }
 
-.item1 a:link{
-    color: #0f3e5e;
-    text-decoration: none;
-}
-       
-.item1 a:hover{
-    text-decoration: underline;
-    font-size: 1.1em;
-}
-.item1 a:visited{
-    color: #0f3e5e;
-}   
+    .item1 a:link{
+        color: #0f3e5e;
+        text-decoration: none;
+    }
+        
+    .item1 a:hover{
+        text-decoration: underline;
+        font-size: 1.1em;
+    }
+    .item1 a:visited{
+        color: #0f3e5e;
+    }   
 
-.item2 { 
-    grid-area: text1; 
-    background-color: #288ccf65;    
-    align-items: center;
-    padding: 2em;
-    line-height: 1.5;
-}
+    .item2 { 
+        grid-area: text1; 
+        background-color: #288ccf65;    
+        align-items: center;
+        padding: 2em;
+        line-height: 1.5;
+    }
 
-/* General  */
-.item3 { 
-    grid-area: bilde1; 
-    border: 4px solid #60a6d4; 
-    background-color: #60a6d4; 
-    padding: 1em;
-}
+    /* General  */
+    .item3 { 
+        grid-area: bilde1; 
+        border: 4px solid #60a6d4; 
+        background-color: #60a6d4; 
+        padding: 1em;
+    }
 
-/* Checked and validated code */
-.item4 { 
-    grid-area: text2; 
-    background-color: #288ccf65; 
-    padding: 1em;
-    line-height: 1.5;
-}
-.item5 { 
-    grid-area: bilde2; 
-    border: 4px solid #60a6d4; 
-    background-color: #60a6d4; 
-    padding: 1em;
-}
-.item5 img{
-    margin-top: 10px; 
-    margin-bottom: 10px;
-}
+    /* Checked and validated code */
+    .item4 { 
+        grid-area: text2; 
+        background-color: #288ccf65; 
+        padding: 1em;
+        line-height: 1.5;
+    }
+    .item5 { 
+        grid-area: bilde2; 
+        border: 4px solid #60a6d4; 
+        background-color: #60a6d4; 
+        padding: 1em;
+    }
+    .item5 img{
+        margin-top: 10px; 
+        margin-bottom: 10px;
+    }
 
-/* Coding choises made */
-.item6{
-    grid-area: tekst;
-    background-color: #288ccf65; 
-    padding: 1em;
-    line-height: 1.5;
-}
+    /* Coding choises made */
+    .item6{
+        grid-area: tekst;
+        background-color: #288ccf65; 
+        padding: 1em;
+        line-height: 1.5;
+    }
 
-/* Coding choises made */
-.item7 { 
-    grid-area: f; 
-    border: 4px solid #ffe852; 
-    background-color: #ffe852;
-    border: 4px solid #ffe852;
-    padding: 1em;
-    line-height: 1;
-}
-.item7 img{
-    height: 10em;
-    border-radius: 25px;
-}
+    /* Coding choises made */
+    .item7 { 
+        grid-area: f; 
+        border: 4px solid #ffe852; 
+        background-color: #ffe852;
+        border: 4px solid #ffe852;
+        padding: 1em;
+        line-height: 1;
+    }
+    .item7 img{
+        height: 10em;
+        border-radius: 25px;
+    }
 
-.grid-container { 
-    grid-gap: 0.5em;
-    background-color: white;
-    grid-template-rows: auto;
-    border: 2px solid white;
-    display: grid;
-    grid-template-areas: 
-    ". h h ."
-    ". text1 bilde1 ." /* General*/
-    ". text1 bilde1 ."
-    ". bilde2 text2 ." /* Checked, validated code*/
-    ". bilde2 text2 ."
-    ". tekst tekst ." /* Code choises for univesal design */
-    ". f f ."; /* Conclution */
-}
-#grid-container > .class{
-    padding: 1em;
-}
-#grid-img{
-    height: 12em;
-    width: 20em;
-    border-radius: 25px;   
-}
+    .grid-container { 
+        grid-gap: 0.5em;
+        background-color: white;
+        grid-template-rows: auto;
+        border: 2px solid white;
+        display: grid;
+        grid-template-areas: 
+        ". h h ."
+        ". text1 bilde1 ." /* General*/
+        ". text1 bilde1 ."
+        ". bilde2 text2 ." /* Checked, validated code*/
+        ". bilde2 text2 ."
+        ". tekst tekst ." /* Code choises for univesal design */
+        ". f f ."; /* Conclution */
+    }
+    #grid-container > .class{
+        padding: 1em;
+    }
+    #grid-img{
+        height: 12em;
+        width: 20em;
+        border-radius: 25px;   
+    }
 
-.grid-inline-container{
-    display: inline-grid;
-    
-}
-.start {
-    align-items: start;
- }
- .end {
-    align-items: end;
- }
- .center {
-    align-items: center;
- }
- .stretch {
-    align-items: stretch
- }
-
+    .grid-inline-container{
+        display: inline-grid;
+        
+    }
+    .start {
+        align-items: start;
+    }
+    .end {
+        align-items: end;
+    }
+    .center {
+        align-items: center;
+    }
+    .stretch {
+        align-items: stretch
+    }
 
 
 
 /* Accessibility page */
-
 
     #accessibility{
         width: 90%;
@@ -1449,8 +1367,6 @@
         background-color: #288dcf;
         display: none;
     }
-
-
     #textValidated{
         background-color: #40E4FF;
         display: none;
@@ -1464,6 +1380,7 @@
         display: none;
     }
 
+<<<<<<< HEAD
 /* Topical page */
 
 .links-topical:link {
@@ -1478,31 +1395,37 @@
     background-color: white;
     text-decoration: underline;
 }
+=======
+    /* Topical page */
+    .links-topical:link {
+        text-decoration: none;
+    }
+>>>>>>> 9629627ee049a498cc465f56de6cb3717be819ca
 
-.figcaption:hover {
-background-color: white;
-text-decoration: underline; 
-}
+    .links-topical:active {
+        background-color: lightpink;
+    }
 
-.h1-topical {
-   font-size: 4em;
-   font-family: Verdana, sans-serif, Geneva, Tahoma;
-   text-align: center;
-   margin-top: 70px; 
-}
+    .links-topical:hover {
+        background-color: white;
+        text-decoration: underline;
+    }
 
-.h2-topical {
-   font-size: 3em;
-   font-family: Verdana, sans-serif, Geneva, Tahoma;
-   text-align: center;
-   margin-top: 100px;
-}
+    .figcaption:hover {
+    background-color: white;
+    text-decoration: underline; 
+    }
 
-.h3-topical {
-   font-size: 30px;
-}
+    .h1-topical {
+    font-size: 4em;
+    font-family: Verdana, sans-serif, Geneva, Tahoma;
+    text-align: center;
+    margin-top: 70px; 
+    }
 
-.paragh-intro {
+    .h2-topical {
+    font-size: 3em;
+    font-family: Verdana, sans-serif, Geneva, Tahoma;
     text-align: center;
     font-size: 2em;
     letter-spacing: 1px;  
@@ -1541,21 +1464,24 @@ text-decoration: underline;
   background-image: linear-gradient(180deg, beige, brown);
 }
 
-.reflection-task-card2 {
- box-shadow: 0 3px 5px 0 black;
- border-radius: 6px 6px 0 0;
- width: 40%;
- margin-right: 2.5%;
- padding: 30px;
- padding-bottom: 0;
- vertical-align: top;
- display: inline;
- float:right;
- vertical-align: top;
- padding-bottom: 100%;
- margin-bottom: -100%;
- background-image: linear-gradient(180deg, beige, brown);
-}
+    .paragh-intro {
+        text-align: center;
+        font-size: 2em;
+        letter-spacing: 1px;
+        
+    }
+    .paragh-intro-card {
+        box-shadow: 0 3px 8px 0 black;
+        width: 80%;
+        margin-left:3.5%;
+        text-align: right;
+        padding: 5em;
+        background-color: #faedcd;
+    }
+
+    .paragh-intro-card:hover {
+    box-shadow: 0 4px 14px 0;
+    }
 
 .task-introduction {
 text-align:left;
@@ -1585,6 +1511,9 @@ font-size: 20px;
 font-style: italic;
 }
 
+    .task-conclusion {
+    font-size: 25px;
+    }
 
 /* Bilder til topical page */   
 .container-topical img{
@@ -1595,6 +1524,8 @@ margin: 0px auto;
 }
 
 
+
+
 }
 
 
@@ -1609,65 +1540,65 @@ margin: 0px auto;
 
 
 
-/* Fun page */
-#fun{
-    background: #c3daff;
-}
+    /* Fun page */
+    #fun{
+        background: #c3daff;
+    }
 
-#fun main{
-    min-width: 240px;
-    padding:1em;
-    text-align: center;
-    margin: 7%;
-    border-radius: 40px;
-    border-style: solid;
-    background:#7f8ea7;
-    color: #000;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
-}
+    #fun main{
+        min-width: 240px;
+        padding:1em;
+        text-align: center;
+        margin: 7%;
+        border-radius: 40px;
+        border-style: solid;
+        background:#7f8ea7;
+        color: #000;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        
+    }
 
-#fun ol{
-    padding: 1em;
-    background: #c3daff;
-    border-radius: 30px;
-    border-style:solid;
-    font-size: 14pt;
-    color: #000;
-}
+    #fun ol{
+        padding: 1em;
+        background: #c3daff;
+        border-radius: 30px;
+        border-style:solid;
+        font-size: 14pt;
+        color: #000;
+    }
 
-#fun li{
-    background:#dbb169;
-    margin: 1em;
-    padding:0.5em;
-    border-radius: 20px;
-    border-style: solid;
-    box-shadow: 0 0 10px 3px black;
-    
-}
+    #fun li{
+        background:#dbb169;
+        margin: 1em;
+        padding:0.5em;
+        border-radius: 20px;
+        border-style: solid;
+        box-shadow: 0 0 10px 3px black;
+        
+    }
 
- #funbilder{
-     display:flex;
-     flex-wrap: wrap;
-     justify-content: center;
-     justify-content: space-evenly;    
-     border-style: solid;
-     border-radius:20px;
-     padding: 1em;
-     background-color: #c3daff;
-}
+    #funbilder{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-evenly;    
+        border-style: solid;
+        border-radius:20px;
+        padding: 1em;
+        background-color: #c3daff;
+    }
 
-#funbilder img{
-    border-style:groove;
-    box-shadow: 0 0 10px 3px black;
-    border-radius: 10px;
-    border-color:#dbb169 ;
-    height: auto;
-}
-
-
+    #funbilder img{
+        border-style:groove;
+        box-shadow: 0 0 10px 3px black;
+        border-radius: 10px;
+        border-color:#dbb169 ;
+        height: auto;
+    }
 
 
+
+x
 
 
 
