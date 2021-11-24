@@ -264,7 +264,7 @@
     #accessibility > div{
         padding: 1em;
         gap: 1em;
-        line-height: 1.5;;
+        line-height: 1.5;
     }
     #accessibilityIntro{
         background-color: #ffe852;
@@ -285,8 +285,6 @@
     }  
 
 
-
-
     #textAccessibility{
         background-color: #288ccf65;
     }
@@ -297,7 +295,6 @@
     }
     #codingChoises{
         background-color: #288ccf65;
-
     }
     #accessibility > div:last-of-type{
         background-color: #ffe852;
@@ -511,9 +508,6 @@ text-align: center;
   }
   
   
-  
-
-
 
 
 }
@@ -871,6 +865,11 @@ text-align: center;
     background-color: #60a6d4; 
     padding: 1em;
 }
+.item3 img{
+    margin-top: 5px; 
+    margin-bottom: 5px;
+}
+
 
 /* Checked and validated code */
 .item4 { 
@@ -885,13 +884,17 @@ text-align: center;
     background-color: #60a6d4; 
     padding: 1em;
 }
+.item5 img{
+    margin-top: 30px; 
+    margin-bottom: 30px;
+}
 
 /* Coding choises made */
 .item6{
     grid-area: tekst;
     background-color: #288ccf65; 
     padding: 1em;
-    line-height: 1;
+    line-height: 1.5;
 }
 
 /* Coding choises made */
@@ -1380,13 +1383,17 @@ margin: 0px auto;
     background-color: #60a6d4; 
     padding: 1em;
 }
+.item5 img{
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
 
 /* Coding choises made */
 .item6{
     grid-area: tekst;
     background-color: #288ccf65; 
     padding: 1em;
-    line-height: 1;
+    line-height: 1.5;
 }
 
 /* Coding choises made */
