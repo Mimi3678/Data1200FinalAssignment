@@ -188,15 +188,12 @@
     #javaLearn{
         vertical-align: middle;
     }
-
     #imgJavaLearn{
         display: flex;
         flex-basis: auto;
         line-height: 1em;
         float: none;
     }
-
-
     #textJAVA, #textHTML{
         text-align: left;
     }
@@ -229,7 +226,6 @@
         line-height: 1em;
         float: none;
     }
-    
     #htmlLearn{
         vertical-align: middle;
     }
@@ -241,7 +237,7 @@
 
     /* Accessibility page */
     /* Skjermstørrelse Minst 
-    (maxt width 600px)  */
+    (maxt width 600px) */
 
     #accessibility{
         margin: 1em;
@@ -249,7 +245,6 @@
         background-color:  white;
         font-size: larger;
         font-family: sans-serif, Verdana, Geneva, Tahoma;
-        
     }
     #accessibility > h1{
         letter-spacing: 0.3em;
@@ -260,7 +255,6 @@
         height: 9em;
         width: 18em;
     }
-
     #accessibility > div{
         padding: 1em;
         gap: 1em;
@@ -271,25 +265,22 @@
         height: auto;
         padding: 0em;
     }
+    /* Link */
     #accessibilityIntro a:link{
         color: #0f3e5e;
         text-decoration: none;
     }
-           
     #accessibilityIntro a:hover{
         text-decoration: underline;
         font-size: 1.1em;
     }
     #accessibilityIntro a:visited{
         color: #0f3e5e;
-    }  
-
-
+    }
+    /* Different  divs */ 
     #textAccessibility{
         background-color: #288ccf65;
     }
-
-
     #textValidated{
         background-color: #60a6d4;
     }
