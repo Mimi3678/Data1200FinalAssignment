@@ -246,7 +246,7 @@
         font-size: larger;
         font-family: sans-serif, Verdana, Geneva, Tahoma;
     }
-    
+
     #accessibility > h1{
         letter-spacing: 0.3em;
     } 
@@ -433,21 +433,19 @@
     }
 
     .reflection-task-card1 {
-    box-shadow: 0 3px 5px 0 darkgoldenrod;
-    border-radius: 6px 6px 0 0;
-    width: 300px;
-    margin: 2em;
-    padding: 25px;
-    
+        box-shadow: 0 3px 5px 0 darkgoldenrod;
+        border-radius: 6px 6px 0 0;
+        width: 300px;
+        margin: 2em;
+        padding: 25px;
     }
 
-.reflection-task-card2 {
-    box-shadow: 0 3px 5px 0 darkgoldenrod;
-    border-radius: 6px 6px 0 0;
-    width: 300px;
-    margin: 2em;
-    padding: 25px;
-    
+    .reflection-task-card2 {
+        box-shadow: 0 3px 5px 0 darkgoldenrod;
+        border-radius: 6px 6px 0 0;
+        width: 300px;
+        margin: 2em;
+        padding: 25px;
    }
 
    .task-introduction {
@@ -508,9 +506,6 @@
   margin: 0px auto;
   }
   
-  
-
-
 }
 
 
@@ -518,7 +513,7 @@
 
 
 
-
+/* Mellomste skjerm */
 @media only screen and (min-width: 600px) and (max-width: 960px) {
 
     /* General header*/
@@ -568,7 +563,7 @@
     }
 
     /* HomePage */
-
+    
     .bilder {
         display: none;
     }
