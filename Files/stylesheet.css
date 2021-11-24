@@ -953,116 +953,114 @@
     }
 
     .h3-topical {
-    font-size: 30px;
+        font-size: 30px;
     }
 
     .paragh-intro {
-    text-align: center;
-    font-size: 1.5em;
-    letter-spacing: 1px;
-
+        text-align: center;
+        font-size: 1.5em;
+        letter-spacing: 1px;
     }
     .paragh-intro-card {
-    box-shadow: 0 3px 8px 0 black;
-    width: 80%;
-    margin-left:3.5%;
-    text-align: right;
-    padding: 3em;
-    background-color: #faedcd;
+        box-shadow: 0 3px 8px 0 black;
+        width: 80%;
+        margin-left:3.5%;
+        text-align: right;
+        padding: 3em;
+        background-color: #faedcd;
     }
     /* prøv å ha noe kult effekt her */
     .paragh-intro-card:hover {
-    box-shadow: 0 4px 14px 0;
+        box-shadow: 0 4px 14px 0;
     }
 
     .container-topical{
-    height: auto;
-    overflow: hidden;
+        height: auto;
+        overflow: hidden;
     }
     .reflection-task-card1 {
-    box-shadow: 0 3px 5px 0 black;
-    border-radius: 6px 6px 0 0;
-    width: 35%;
-    padding: 30px;
-    padding-bottom: 0;
-    margin-left: 4%;
-    display: inline;
-    float: left;
-    padding-bottom: 100%;
-    margin-bottom: -100%;
-    background-image: linear-gradient(180deg, beige, white, brown );
+        box-shadow: 0 3px 5px 0 black;
+        border-radius: 6px 6px 0 0;
+        width: 35%;
+        padding: 30px;
+        padding-bottom: 0;
+        margin-left: 4%;
+        display: inline;
+        float: left;
+        padding-bottom: 100%;
+        margin-bottom: -100%;
+        background-image: linear-gradient(180deg, beige, white, brown );
     }
 
     .reflection-task-card2 {
-    box-shadow: 0 3px 5px 0 black;
-    border-radius: 6px 6px 0 0;
-    width: 35%;
-    margin-right: 3%;
-    padding: 30px;
-    padding-bottom: 0;
-    vertical-align: top;
-    display: inline;
-    float:right;
-    vertical-align: top;
-    padding-bottom: 100%;
-    margin-bottom: -100%;
-    background-image: linear-gradient(180deg, beige, white, brown );
+        box-shadow: 0 3px 5px 0 black;
+        border-radius: 6px 6px 0 0;
+        width: 35%;
+        margin-right: 3%;
+        padding: 30px;
+        padding-bottom: 0;
+        vertical-align: top;
+        display: inline;
+        float:right;
+        vertical-align: top;
+        padding-bottom: 100%;
+        margin-bottom: -100%;
+        background-image: linear-gradient(180deg, beige, white, brown );
     }
 
     .task-introduction {
-    text-align:left;
-    font-size: 1em;
-    font-style: italic;
+        text-align:left;
+        font-size: 1em;
+        font-style: italic;
     }
 
     .task-paragh {
-    text-align: left;
-    font-size: 1em;
-    letter-spacing: 1px;
+        text-align: left;
+        font-size: 1em;
+        letter-spacing: 1px;
     }
 
     .task-paragh::first-letter {
-    font-size: 200%;
-    color: #8A2BE2;
-    font-style: italic;
+        font-size: 200%;
+        color: #8A2BE2;
+        font-style: italic;
     }
 
     .task-conclusion {
-    font-size: 1em;
+        font-size: 1em;
     }
 
     .figcaptions{
-    text-align: center;
-    font-size: 1em;
-    font-style: italic;
+        text-align: center;
+        font-size: 1em;
+        font-style: italic;
     }
 
     /* Bilder til topical page */   
     .technology-soceity {
-    height: 100px;
-    width: auto;
-    display: auto;
-    margin: 0px auto;
-
+        height: 100px;
+        width: auto;
+        display: auto;
+        margin: 0px auto;
     }
 
     .biden-trump {
-    width: auto;
-    height: 100px;
-    display: block;
-    margin: 0px auto;
+        width: auto;
+        height: 100px;
+        display: block;
+        margin: 0px auto;
     }
     .myanmar-coup {
-    width: auto;
-    height: 100px;
-    display: block;
-    margin: 0px auto;
+        width: auto;
+        height: 100px;
+        display: block;
+        margin: 0px auto;
     }
     .smartphones {
-    width: auto;
-    height: 100px;
-    display: block;
-    margin: 0px auto;
+        width: auto;
+        height: 100px;
+        display: block;
+        margin: 0px auto;
     }
 }
 
