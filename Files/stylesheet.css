@@ -481,24 +481,19 @@
     width: 85%;
     display: auto;
     margin: 0px auto;
-  
   }
-
   .smartphones {
     width: 85%;
     height: auto;
     display: block;
     margin: 0px auto;
  }
- 
-  
   .biden-trump {
      width: 100%;
      height: auto;
      display: block;
      margin: 0px auto;
   }
-  
   .myanmar-coup {
   width: 100%;
   height: auto;
@@ -507,10 +502,6 @@
   }
   
 }
-
-
-
-
 
 
 /* Mellomste skjerm */
@@ -562,6 +553,8 @@
         clear: both;
     }
 
+
+
     /* HomePage */
 
     .bilder {
@@ -607,10 +600,11 @@
     }
 
 
-/* Reflection */
-/* Skjermstørrelse Minst (min 600px max 960px) */
 
-/* Overall reflection page */ 
+    /* Reflection */
+    /* Skjermstørrelse Minst (min 600px max 960px) */
+
+    /* Overall reflection page */ 
     #reflection{        
         background-color: white;
         margin: 1em;
@@ -717,7 +711,6 @@
         gap: 1em;
         align-items: center;
         padding: 0em;
-        
     }
 
     #html >  #bilder >#imgHtmlLearn{
@@ -753,338 +746,328 @@
 
 
 
+    /* Accessibility page */
+    /* Skjermstørrelse Minst (min 600px max 960px) */
 
-/* Accessibility page */
-/* Skjermstørrelse Minst (min 600px max 960px) */
+    /* Overall accessibility page */
+    #accessibility{
+        width: 90%;
+        margin: 1em;
+        background-color:  white;
+        font-size: larger;
+        font-family: sans-serif, Verdana, Geneva, Tahoma;
+    }
+    #accessibility > h1{
+        letter-spacing: 0.3em;
+    } 
 
-/* Overall accessibility page */
-#accessibility{
-    width: 90%;
-    margin: 1em;
-    background-color:  white;
-    font-size: larger;
-    font-family: sans-serif, Verdana, Geneva, Tahoma;
-}
-#accessibility > h1{
-    letter-spacing: 0.3em;
-} 
+    /* Vises ikke på mellomste skjerm */
+    #accessibility > div > img{
+        border: 2px solid black;
+        border-radius: 25px;
+        margin: 1em;
+        height: 10em;
+        width: 10em;
+        display: none;
+    }
+    #accessibility > div{
+        padding: 1em;
+    }
+    #accessibilityIntro{
+        background-color: #FFDC00;
+        height: 5em;
+        display: none;
+    }  
+    #textAccessibility{
+        background-color: #288dcf;
+        display: none;
+    }
+    #textValidated{
+        background-color: #40E4FF;
+        display: none;
+    }
 
-/* Vises ikke på mellomste skjerm */
-#accessibility > div > img{
-    border: 2px solid black;
-    border-radius: 25px;
-    margin: 1em;
-    height: 10em;
-    width: 10em;
-    display: none;
-}
-#accessibility > div{
-    padding: 1em;
-}
-#accessibilityIntro{
-    background-color: #FFDC00;
-    height: 5em;
-    display: none;
-}  
-#textAccessibility{
-    background-color: #288dcf;
-    display: none;
-}
-#textValidated{
-    background-color: #40E4FF;
-    display: none;
-}
-
-#codingChoises{
-    background-color: #288ccf65;
-    display: none;
-}
-#accessibility > div:last-of-type{
-    background-color: #FFDC00;
-    display: none;
-}
+    #codingChoises{
+        background-color: #288ccf65;
+        display: none;
+    }
+    #accessibility > div:last-of-type{
+        background-color: #FFDC00;
+        display: none;
+    }
     /* Accessibility page  GRID
     Skjermstørrelse Minst (min 600px max 960px)
     Styler innholdet i grid'en*/
 
-/* Innhold */
-/* Intro */
-.item1 { 
-    grid-area: h; 
-    border: 4px solid #ffe852; 
-    background-color: #ffe852;    
-    height: 7em;
-    text-align: center;
-    padding: 2em;
-    line-height: 1.5;
-}
-.item1 a:link{
-    color: #0f3e5e;
-    text-decoration: none;
-}
-.item1 a:hover{
-    text-decoration: underline;
-    font-size: 1.1em;
-}
-.item1 a:visited{
-    color: #0f3e5e;
-}   
+    /* Innhold */
+    /* Intro */
+    .item1 { 
+        grid-area: h; 
+        border: 4px solid #ffe852; 
+        background-color: #ffe852;    
+        height: 7em;
+        text-align: center;
+        padding: 2em;
+        line-height: 1.5;
+    }
+    .item1 a:link{
+        color: #0f3e5e;
+        text-decoration: none;
+    }
+    .item1 a:hover{
+        text-decoration: underline;
+        font-size: 1.1em;
+    }
+    .item1 a:visited{
+        color: #0f3e5e;
+    }   
 
-/* General */
-.item2 { 
-    grid-area: text1; 
-    background-color: #288ccf65;  
-    align-items: center;
-    padding: 2em;
-    line-height: 1.5;
-}
-.item3 { 
-    grid-area: bilde1; 
-    border: 4px solid #60a6d4; 
-    background-color: #60a6d4; 
-    padding: 1em;
-}
-.item3 img{
-    margin-top: 5px; 
-    margin-bottom: 5px;
-}
-
-
-/* Checked and validated code */
-.item4 { 
-    grid-area: text2; 
-    background-color: #288ccf65;  
-    padding: 1em;
-    line-height: 1.5;
-}
-.item5 { 
-    grid-area: bilde2; 
-    border: 4px solid #60a6d4; 
-    background-color: #60a6d4; 
-    padding: 1em;
-}
-.item5 img{
-    margin-top: 30px; 
-    margin-bottom: 30px;
-}
-
-/* Coding choises made */
-.item6{
-    grid-area: tekst;
-    background-color: #288ccf65; 
-    padding: 1em;
-    line-height: 1.5;
-}
-
-/* Coding choises made */
-.item7 { 
-    grid-area: f;
-    background-color: #ffe852;  
-    padding: 1em;
-    line-height: 1.5;
-}
-.item7 img{
-    height: 10em;
-    border-radius: 25px;
-}
-
-.grid-container { 
-    grid-gap: 5px;
-    background-color: white;
-    border: 2px solid white;
-    grid-template-rows: auto;
-    display: grid;
-    font-size: medium;
-    grid-template-areas: 
-    ". h h ."
-    ". text1 bilde1 ." /* General*/
-    ". text1 bilde1 ."
-    ". bilde2 text2 ." /* Checked, validated code*/
-    ". bilde2 text2 ."
-    ". tekst tekst ." /* Code choises for univesal design */
-    ". f f ."; /* Conclution */
-}
-#grid-img{
-    height: 8em;
-    width: 14em;   
-    border-radius: 25px;   
-}
-
-.grid-inline-container{
-    display: inline-grid;
-}
-.start {
-    align-items: start;
- }
- .end {
-    align-items: end;
- }
- .center {
-    align-items: center;
- }
- .stretch {
-    align-items: stretch
- }
+    /* General */
+    .item2 { 
+        grid-area: text1; 
+        background-color: #288ccf65;  
+        align-items: center;
+        padding: 2em;
+        line-height: 1.5;
+    }
+    .item3 { 
+        grid-area: bilde1; 
+        border: 4px solid #60a6d4; 
+        background-color: #60a6d4; 
+        padding: 1em;
+    }
+    .item3 img{
+        margin-top: 5px; 
+        margin-bottom: 5px;
+    }
 
 
-/* Topical page */
-.links-topical:link {
-    text-decoration: none;
-   }
+    /* Checked and validated code */
+    .item4 { 
+        grid-area: text2; 
+        background-color: #288ccf65;  
+        padding: 1em;
+        line-height: 1.5;
+    }
+    .item5 { 
+        grid-area: bilde2; 
+        border: 4px solid #60a6d4; 
+        background-color: #60a6d4; 
+        padding: 1em;
+    }
+    .item5 img{
+        margin-top: 30px; 
+        margin-bottom: 30px;
+    }
 
-.links-topical:hover {
-    background-color: white;
-    text-decoration: underline;
-   }
+    /* Coding choises made */
+    .item6{
+        grid-area: tekst;
+        background-color: #288ccf65; 
+        padding: 1em;
+        line-height: 1.5;
+    }
 
-.figcaption:hover {
-       background-color: white;
-       text-decoration: underline; 
-   }
+    /* Coding choises made */
+    .item7 { 
+        grid-area: f;
+        background-color: #ffe852;  
+        padding: 1em;
+        line-height: 1.5;
+    }
+    .item7 img{
+        height: 10em;
+        border-radius: 25px;
+    }
 
-.links-topical:active {
-    background-color: lightpink;
-   }
+    .grid-container { 
+        grid-gap: 5px;
+        background-color: white;
+        border: 2px solid white;
+        grid-template-rows: auto;
+        display: grid;
+        font-size: medium;
+        grid-template-areas: 
+            ". h h ."
+            ". text1 bilde1 ." /* General*/
+            ". text1 bilde1 ."
+            ". bilde2 text2 ." /* Checked, validated code*/
+            ". bilde2 text2 ."
+            ". tekst tekst ." /* Code choises for univesal design */
+            ". f f ."; /* Conclution */
+    }
+    #grid-img{
+        height: 8em;
+        width: 14em;   
+        border-radius: 25px;   
+    }
 
-.h1-topical {
-   font-size: 4em;
-   font-family: Verdana, sans-serif, Geneva, Tahoma;
-   text-align: center;
-   margin-top: 70px; 
-}
+    .grid-inline-container{
+        display: inline-grid;
+    }
+    .start {
+        align-items: start;
+    }
+    .end {
+        align-items: end;
+    }
+    .center {
+        align-items: center;
+    }
+    .stretch {
+        align-items: stretch
+    }
 
-.h2-topical {
-   font-size: 3em;
-   font-family: Verdana, sans-serif, Geneva, Tahoma;
-   text-align: center;
-   margin-top: 100px;
-}
 
-.h3-topical {
-   font-size: 30px;
-}
 
-.paragh-intro {
+
+    /* Topical page */
+    .links-topical:link {
+        text-decoration: none;
+    }
+
+    .links-topical:hover {
+        background-color: white;
+        text-decoration: underline;
+    }
+
+    .figcaption:hover {
+        background-color: white;
+        text-decoration: underline; 
+    }
+
+    .links-topical:active {
+        background-color: lightpink;
+    }
+    .h1-topical {
+        font-size: 4em;
+        font-family: Verdana, sans-serif, Geneva, Tahoma;
+        text-align: center;
+        margin-top: 70px; 
+    }
+    .h2-topical {
+        font-size: 3em;
+        font-family: Verdana, sans-serif, Geneva, Tahoma;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .h3-topical {
+    font-size: 30px;
+    }
+
+    .paragh-intro {
     text-align: center;
     font-size: 1.5em;
     letter-spacing: 1px;
-    
-}
-.paragh-intro-card {
+
+    }
+    .paragh-intro-card {
     box-shadow: 0 3px 8px 0 black;
     width: 80%;
     margin-left:3.5%;
     text-align: right;
     padding: 3em;
     background-color: #faedcd;
-}
-/* prøv å ha noe kult effekt her */
-.paragh-intro-card:hover {
-   box-shadow: 0 4px 14px 0;
-}
+    }
+    /* prøv å ha noe kult effekt her */
+    .paragh-intro-card:hover {
+    box-shadow: 0 4px 14px 0;
+    }
 
-.container-topical{
+    .container-topical{
     height: auto;
     overflow: hidden;
-}
-.reflection-task-card1 {
-  box-shadow: 0 3px 5px 0 black;
-  border-radius: 6px 6px 0 0;
-  width: 35%;
-  padding: 30px;
-  padding-bottom: 0;
-  margin-left: 4%;
-  display: inline;
-  float: left;
-  padding-bottom: 100%;
-  margin-bottom: -100%;
-  background-image: linear-gradient(180deg, beige, white, brown );
-}
+    }
+    .reflection-task-card1 {
+    box-shadow: 0 3px 5px 0 black;
+    border-radius: 6px 6px 0 0;
+    width: 35%;
+    padding: 30px;
+    padding-bottom: 0;
+    margin-left: 4%;
+    display: inline;
+    float: left;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+    background-image: linear-gradient(180deg, beige, white, brown );
+    }
 
-.reflection-task-card2 {
- box-shadow: 0 3px 5px 0 black;
- border-radius: 6px 6px 0 0;
- width: 35%;
- margin-right: 3%;
- padding: 30px;
- padding-bottom: 0;
- vertical-align: top;
- display: inline;
- float:right;
- vertical-align: top;
- padding-bottom: 100%;
- margin-bottom: -100%;
- background-image: linear-gradient(180deg, beige, white, brown );
-}
+    .reflection-task-card2 {
+    box-shadow: 0 3px 5px 0 black;
+    border-radius: 6px 6px 0 0;
+    width: 35%;
+    margin-right: 3%;
+    padding: 30px;
+    padding-bottom: 0;
+    vertical-align: top;
+    display: inline;
+    float:right;
+    vertical-align: top;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+    background-image: linear-gradient(180deg, beige, white, brown );
+    }
 
+    .task-introduction {
+    text-align:left;
+    font-size: 1em;
+    font-style: italic;
+    }
 
-.task-introduction {
-   text-align:left;
-   font-size: 1em;
-   font-style: italic;
-   
-}
+    .task-paragh {
+    text-align: left;
+    font-size: 1em;
+    letter-spacing: 1px;
+    }
 
-.task-paragh {
-   text-align: left;
-   font-size: 1em;
-   letter-spacing: 1px;
-}
-
-.task-paragh::first-letter {
+    .task-paragh::first-letter {
     font-size: 200%;
     color: #8A2BE2;
     font-style: italic;
-  }
+    }
 
-.task-conclusion {
-   font-size: 1em;
-}
+    .task-conclusion {
+    font-size: 1em;
+    }
 
-.figcaptions{
-   text-align: center;
-   font-size: 1em;
-   font-style: italic;
-}
+    .figcaptions{
+    text-align: center;
+    font-size: 1em;
+    font-style: italic;
+    }
 
+    /* Bilder til topical page */   
+    .technology-soceity {
+    height: 100px;
+    width: auto;
+    display: auto;
+    margin: 0px auto;
 
-/* Bilder til topical page */   
-.technology-soceity {
-  height: 100px;
-  width: auto;
-  display: auto;
-  margin: 0px auto;
+    }
 
-}
-
-.biden-trump {
-   width: auto;
-   height: 100px;
-   display: block;
-   margin: 0px auto;
-}
-
-.myanmar-coup {
-width: auto;
-height: 100px;
-display: block;
-margin: 0px auto;
-
-}
-
-.smartphones {
-   width: auto;
-   height: 100px;
-   display: block;
-   margin: 0px auto;
+    .biden-trump {
+    width: auto;
+    height: 100px;
+    display: block;
+    margin: 0px auto;
+    }
+    .myanmar-coup {
+    width: auto;
+    height: 100px;
+    display: block;
+    margin: 0px auto;
+    }
+    .smartphones {
+    width: auto;
+    height: 100px;
+    display: block;
+    margin: 0px auto;
+    }
 }
 
 
 
-
-
-
-}
 
 
 /* Stor-skjerm */
