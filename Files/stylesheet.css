@@ -404,31 +404,13 @@
  }
  
 
-/* Bilder til topical page -     */   
-    .technology-soceity {
-        height: auto;
-        width: 85%;
-        display: auto;
-        margin: 0px auto;
-    }
-    .smartphones {
-        width: 85%;
-        height: auto;
-        display: block;
-        margin: 0px auto;
-    }
-    .biden-trump {
-        width: 100%;
-        height: auto;
-        display: block;
-        margin: 0px auto;
-    }
-    .myanmar-coup {
-    width: 100%;
+/* Bilder til topical page - Phone*/   
+.container-topical img{
     height: auto;
-    display: block;
+    width: 150px;
+    display: auto;
     margin: 0px auto;
-    }
+  }
   
 }
 
