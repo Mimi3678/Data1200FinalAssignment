@@ -284,15 +284,13 @@
     }
 
     /* Different  divs */ 
-    #textAccessibility{
+    #textAccessibility, #codingChoises{
         background-color: #288ccf65;
     }
     #textValidated{
         background-color: #60a6d4;
     }
-    #codingChoises{
-        background-color: #288ccf65;
-    }
+    
     #accessibility > div:last-of-type{
         background-color: #ffe852;
     }
