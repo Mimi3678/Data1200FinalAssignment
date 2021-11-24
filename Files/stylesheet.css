@@ -1465,18 +1465,19 @@
     }
 
 /* Topical page */
+
 .links-topical:link {
     text-decoration: none;
-   }
+}
 
 .links-topical:active {
     background-color: lightpink;
-   }
+}
 
 .links-topical:hover {
     background-color: white;
     text-decoration: underline;
-   }
+}
 
 .figcaption:hover {
 background-color: white;
@@ -1504,9 +1505,9 @@ text-decoration: underline;
 .paragh-intro {
     text-align: center;
     font-size: 2em;
-    letter-spacing: 1px;
-    
+    letter-spacing: 1px;  
 }
+
 .paragh-intro-card {
     box-shadow: 0 3px 8px 0 black;
     width: 80%;
@@ -1515,15 +1516,17 @@ text-decoration: underline;
     padding: 5em;
     background-color: #faedcd;
 }
-/* prøv å ha noe kult effekt her */
+
+
 .paragh-intro-card:hover {
    box-shadow: 0 4px 14px 0;
 }
 
-.container-topical{
+.container-topical {
     height: auto;
     overflow: hidden;
 }
+
 .reflection-task-card1 {
   box-shadow: 0 3px 5px 0 black;
   border-radius: 6px 6px 0 0;
@@ -1554,70 +1557,42 @@ text-decoration: underline;
  background-image: linear-gradient(180deg, beige, brown);
 }
 
-
 .task-introduction {
-   text-align:left;
-   font-size: 25px;
-   font-style: italic;
-   
+text-align:left;
+font-size: 25px;
+font-style: italic;
 }
 
 .task-paragh {
-   text-align: left;
-   font-size: 25px;
-   letter-spacing: 1px;
+text-align: left;
+font-size: 25px;
+letter-spacing: 1px;
 }
 
 .task-paragh::first-letter {
-    font-size: 200%;
-    color: #8A2BE2;
-    font-style: italic;
-  }
-
-.task-conclusion {
-   font-size: 25px;
+font-size: 200%;
+color: #8A2BE2;
+font-style: italic;
 }
 
-.figcaptions{
-   text-align: center;
-   font-size: 20px;
-   font-style: italic;
+.task-conclusion {
+font-size: 25px;
+}
+
+.figcaptions {
+text-align: center;
+font-size: 20px;
+font-style: italic;
 }
 
 
 /* Bilder til topical page */   
-.technology-soceity {
-  height: 200px;
-  width: auto;
-  display: block;
-  margin: 0px auto;
-
-}
-
-.biden-trump {
-   width: auto;
-   height: 200px;
-   display: block;
-   margin: 0px auto;
-}
-
-.myanmar-coup {
-width: auto;
+.container-topical img{
 height: 200px;
+width: auto;
 display: block;
 margin: 0px auto;
-
 }
-
-.smartphones {
-   width: auto;
-   height: 200px;
-   display: block;
-   margin: 0px auto;
-}
-
-
-
 
 
 }
