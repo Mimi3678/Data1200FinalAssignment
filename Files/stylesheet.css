@@ -1363,37 +1363,38 @@ Styler innholdet i grid'en*/
     }
 
     .figcaption:hover {
-    background-color: white;
-    text-decoration: underline; 
+      background-color: white;
+      text-decoration: underline; 
     }
 
-.paragh-intro-card:hover {
-box-shadow: 0 4px 14px 0;
-}
+    .paragh-intro-card:hover {
+      box-shadow: 0 4px 14px 0;
+    }
 
-.figcaption:hover {
-background-color: white;
-text-decoration: underline; 
-}
-.paragh-intro-card {
-    box-shadow: 0 3px 8px 0 black;
-    width: 80%;
-    margin-left:3.5%;
-    text-align: right;
-    padding: 5em;
-    background-color: #faedcd;
-}
+    .figcaption:hover {
+      background-color: white;
+      text-decoration: underline; 
+    }
 
-.h2-topical {
-font-size: 3em;
-font-family: Verdana, sans-serif, Geneva, Tahoma;
-text-align: center;
-font-size: 2em;
-letter-spacing: 1px;  
-}
+    .paragh-intro-card {
+       box-shadow: 0 3px 8px 0 black;
+       width: 80%;
+       margin-left:3.5%;
+       text-align: right;
+       padding: 5em;
+      background-color: #faedcd;
+    }
+
+   .h2-topical {
+     font-size: 3em;
+     font-family: Verdana, sans-serif, Geneva, Tahoma;
+     text-align: center;
+     font-size: 2em;
+     letter-spacing: 1px;  
+   }
 
     .paragh-intro-card:hover {
-    box-shadow: 0 4px 14px 0;
+     box-shadow: 0 4px 14px 0;
     }
 
     .container-topical {
@@ -1413,6 +1414,7 @@ letter-spacing: 1px;
         margin-bottom: -100%;
         background-image: linear-gradient(180deg, beige, brown);
     }
+
     .reflection-task-card2 {
         box-shadow: 0 3px 5px 0 black;
         border-radius: 6px 6px 0 0;
@@ -1427,11 +1429,11 @@ letter-spacing: 1px;
         background-image: linear-gradient(180deg, beige, brown );
     }
 
-.paragh-intro {
-text-align: center;
-font-size: 2em;
-letter-spacing: 1px;    
-}
+    .paragh-intro {
+        text-align: center;
+        font-size: 2em;
+        letter-spacing: 1px;    
+    }
 
     .paragh-intro-card:hover {
         box-shadow: 0 4px 14px 0;
@@ -1470,7 +1472,7 @@ letter-spacing: 1px;
     }
 
 /* Bilder til topical page */   
-    .container-topical img{
+    .container-topical img {
         height: 200px;
         width: auto;
         display: block;
