@@ -1380,7 +1380,6 @@
         display: none;
     }
 
-<<<<<<< HEAD
 /* Topical page */
 
 .links-topical:link {
@@ -1395,40 +1394,25 @@
     background-color: white;
     text-decoration: underline;
 }
-=======
-    /* Topical page */
-    .links-topical:link {
-        text-decoration: none;
-    }
->>>>>>> 9629627ee049a498cc465f56de6cb3717be819ca
 
-    .links-topical:active {
-        background-color: lightpink;
-    }
+.figcaption:hover {
+background-color: white;
+text-decoration: underline; 
+}
 
-    .links-topical:hover {
-        background-color: white;
-        text-decoration: underline;
-    }
+.h1-topical {
+font-size: 4em;
+font-family: Verdana, sans-serif, Geneva, Tahoma;
+text-align: center;
+margin-top: 70px; 
+}
 
-    .figcaption:hover {
-    background-color: white;
-    text-decoration: underline; 
-    }
-
-    .h1-topical {
-    font-size: 4em;
-    font-family: Verdana, sans-serif, Geneva, Tahoma;
-    text-align: center;
-    margin-top: 70px; 
-    }
-
-    .h2-topical {
-    font-size: 3em;
-    font-family: Verdana, sans-serif, Geneva, Tahoma;
-    text-align: center;
-    font-size: 2em;
-    letter-spacing: 1px;  
+.h2-topical {
+font-size: 3em;
+font-family: Verdana, sans-serif, Geneva, Tahoma;
+text-align: center;
+font-size: 2em;
+letter-spacing: 1px;  
 }
 
 .paragh-intro-card {
@@ -1464,10 +1448,10 @@
   background-image: linear-gradient(180deg, beige, brown);
 }
 
-    .paragh-intro {
-        text-align: center;
-        font-size: 2em;
-        letter-spacing: 1px;
+.paragh-intro {
+text-align: center;
+font-size: 2em;
+letter-spacing: 1px;
         
     }
     .paragh-intro-card {
@@ -1511,9 +1495,9 @@ font-size: 20px;
 font-style: italic;
 }
 
-    .task-conclusion {
-    font-size: 25px;
-    }
+.task-conclusion {
+font-size: 25px;
+}
 
 /* Bilder til topical page */   
 .container-topical img{
@@ -1527,9 +1511,6 @@ margin: 0px auto;
 
 
 }
-
-
-
 
 
 
@@ -1598,11 +1579,3 @@ margin: 0px auto;
 
 
 
-x
-
-
-
-
-
-
-    
