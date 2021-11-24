@@ -1509,6 +1509,7 @@ margin: 0px auto;
   margin-left: 3%;
   display: inline;
   float: left;
+  background-image: linear-gradient(180deg, beige, white, brown );
 }
 
 .reflection-task-card2 {
@@ -1522,6 +1523,7 @@ margin: 0px auto;
  display: inline;
  float:right;
  vertical-align: top;
+ background-image: linear-gradient(180deg, beige, white, brown );
 }
 
 
