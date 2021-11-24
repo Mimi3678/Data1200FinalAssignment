@@ -416,6 +416,7 @@ text-align: center;
     font-family: sans-serif;
     padding: 2em;
     margin: 0;
+    
 }
 
 .paragh-intro-card:hover {
@@ -425,18 +426,18 @@ text-align: center;
 .reflection-task-card1 {
   box-shadow: 0 3px 5px 0 darkgoldenrod;
   border-radius: 6px 6px 0 0;
-  width: 75%;
-  margin: 0;
-  padding: 4em;
+  width: 300px;
+  margin: 2em;
+  padding: 25px;
   
 }
 
 .reflection-task-card2 {
     box-shadow: 0 3px 5px 0 darkgoldenrod;
     border-radius: 6px 6px 0 0;
-    width: 75%;
-    margin: 0;
-    padding: 4em;
+    width: 300px;
+    margin: 2em;
+    padding: 25px;
     
    }
 
